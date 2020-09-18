@@ -13,12 +13,12 @@ footer {
 
 #container {
     width: 50%;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 
 header {
     border-radius: 10px;
-    text-align:center;
+    text-align: center;
     background-color: #603140;
     height: 75px;
 }
@@ -80,9 +80,8 @@ footer {
 
 footer {
     border-radius: 10px;
-    text-align:center;
-    background-color:#603140;
+    text-align: center;
+    background-color: #603140;
     height: 55px;
     margin-top: 30px;
 }
-
