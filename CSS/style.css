@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 header,
 main,
 body,
@@ -34,6 +40,10 @@ img {
 
 main {
     padding-left: 10px;
+}
+
+ul {
+    margin-left: 30px;
 }
 
 h2 {
