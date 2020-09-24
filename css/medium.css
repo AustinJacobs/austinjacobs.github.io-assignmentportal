@@ -1,0 +1,22 @@
+@media screen and (max-width: 32.5em) {
+    #profile-image {
+       float: none;
+       padding: 1rem 0 0;
+       margin: 0 auto;
+    }
+ 
+    header {
+       padding: 0;
+       text-align: center;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    
+ }
