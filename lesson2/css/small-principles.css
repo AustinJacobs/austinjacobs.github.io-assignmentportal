@@ -1,6 +1,7 @@
 body {
     font-size: 100%;
     font-family: 'Epilogue', sans-serif;
+    margin: 0;
 }
 
 header,
@@ -82,4 +83,3 @@ main {
 section {
     justify-self: center;
 }
-
