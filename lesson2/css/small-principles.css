@@ -14,7 +14,7 @@ header {
     text-align: center;
 }
 
-#content-title {
+.content-title {
     background-color: #E63946;
     color: white;
     line-height: 3em;
@@ -24,22 +24,22 @@ header {
     width: 24em;
 }
 
-#content-body {
+.content-body {
     width: 24.6em;
     background-color: #F0F0F0;
     margin-top: -20px;
 }
 
-#web-link {
+.web-link {
     padding-left: .6em;
 }
 
-#website {
+.website {
     padding-top: 1em;
     padding-left: .6em;
 }
 
-#description {
+.description {
     margin: .6em;
 }
 
