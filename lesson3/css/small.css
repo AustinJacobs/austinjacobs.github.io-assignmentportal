@@ -8,9 +8,18 @@
 
 body {
     font-size: 16px;
-    font-family: "Open Sans", sans-serif;
+    font-family: sans-serif;
     background-color: #ECECEC;
     color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Titillium Web', sans-serif;
 }
 
 /* phone or baseline views **************************/
@@ -128,3 +137,63 @@ footer {
 #content-wrap {
     padding-bottom: 3rem;
   }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 10px;
+  }
+  
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+#primary-color {
+    background-color: #203354;
+}
+
+#alt1-color {
+    background-color: #436CB1;
+}
+
+#alt2-color {
+    background-color: #FFD400;
+}
+
+#alt3-color {
+    background-color: #000000;
+}
+
+#back-color {
+    background-color: #ECECEC; 
+}
+
+#sample-h1 {
+    margin-left: 40px;
+}
+
+#sample-h2 {
+    margin: 0;
+}
+
+#sample-p {
+    margin-left: 40px;
+}
+
+#typography-title {
+    padding-bottom: 50px;
+}
+
+.typo-ul {
+    margin-left: 40px;
+}
+
+#sample-headings {
+    margin-left: 40px;
+}
+
+.typography-headings {
+    padding-top: 30px;
+}
