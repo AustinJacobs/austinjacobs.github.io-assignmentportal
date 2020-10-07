@@ -28,4 +28,7 @@
         margin-top: 90px;
         padding-left: 3px;
     }
+    main {
+        max-width: 960px
+    }
 }
