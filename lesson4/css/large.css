@@ -29,11 +29,13 @@
         padding-left: 3px;
     }
     main {
-        max-width: 960px
+        max-width: 960px;
     }
     #main-footer {
         max-width: 960px;
         margin: 0 auto;
     }
-
+    footer {
+        max-width: 960px;
+    }
 }
