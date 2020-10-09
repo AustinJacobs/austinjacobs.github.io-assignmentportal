@@ -92,7 +92,8 @@ h2 {
 footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 960px;
+    margin: 0 auto;
     height: 3.5rem;
     background-color: #203354;
     padding: 10px;
