@@ -19,3 +19,5 @@ let months = ["January", "February", "March", "April", "May", "June", "July", "A
 let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
 document.getElementById("current-date").innerHTML = days[d.getDay()] + ", " + d.getDate() + " " + months[d.getMonth()] + " " + d.getFullYear();
+
+document.getElementById("copyright-year").innerHTML = (new Date().getFullYear());
