@@ -7,7 +7,8 @@
 		flex: 1 1 auto;
 	}
 	.navigation a {
-		text-align: center;
+        text-align: center;
+        padding: .6rem;
 	}
 	.navigation li:first-child {
 		display: none;
