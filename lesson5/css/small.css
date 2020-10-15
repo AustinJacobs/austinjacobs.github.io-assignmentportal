@@ -146,9 +146,124 @@ nav {
     max-width: 100%;
     padding: 5px;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
-#weather-summary {
-    position: absolute;
-    top: 40px;
+.summary-title {
+    color: white;
+    margin: 0 auto;
+    margin-top: -20px;
+    text-align: left;
 }
+
+.table-keys {
+    color: white;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.table-values {
+    color: #FFD400;
+    padding-left: 10px;
+}
+
+.weather-overlay {
+    background: radial-gradient(#436CB1, #203354);
+	border: 1px solid #000;
+	padding: 1rem;
+	box-shadow: 0 0 30px #111;
+    opacity: .8; 
+    width: 97%;
+    margin-left: 5px;
+}
+
+.forecast-title {
+    text-align: center;
+}
+
+#forecast-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20px auto 20px;
+    width: 100%;
+    padding: 5px;
+}
+
+#day-1 {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 18px;
+}
+
+#sun-1 {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+#temp-1 {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align: center;
+    margin: 0;
+}
+
+#day-2 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 18px;
+}
+
+#sun-2 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+#temp-2 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+    margin: 0;
+}
+
+#day-3 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 18px;
+}
+
+#sun-3 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+#temp-3 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+    margin: 0;
+}
+
