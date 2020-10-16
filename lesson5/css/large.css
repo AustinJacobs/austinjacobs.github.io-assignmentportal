@@ -39,4 +39,19 @@
     footer {
         max-width: 960px;
     }
+    .hero-div {
+        position: relative;
+    }
+
+    .weather-overlay {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        width: 250px;
+    }
+
+    #article-image {
+       width: 400px; 
+       float: right;
+    }
 }
