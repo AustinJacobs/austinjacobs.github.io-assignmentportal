@@ -14,15 +14,3 @@ document.getElementById("current-date").innerHTML = days[d.getDay()] + ", " + d.
 
 // Copyright year for the footer.
 document.getElementById("copyright-year").innerHTML = (new Date().getFullYear());
-
-// Set the current page to active and assign an active color to it. 
-function setActive() {
-  linkObj = document.getElementById('nav').getElementsByTagName('a');
-  for(i=0;i<linkObj.length;i++) { 
-    if(document.location.href.indexOf(linkObj[i].href)>=0) {
-      linkObj[i].classList.add("active");
-    }
-  }
-}
-
-window.onload = setActive;

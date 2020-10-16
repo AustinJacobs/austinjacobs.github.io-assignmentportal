@@ -76,10 +76,6 @@ p {
     margin-top: 10px;
 }
 
-.active {
-    color: #FFD400;
-}
-
 h2 {
     margin: 10px;
     padding-top: 20px;
@@ -128,6 +124,11 @@ nav {
 	text-decoration: none;
     color: white;
     padding: .8rem;
+}
+
+#nav .current {
+    background-color: #FFD400;
+    color: #203354;
 }
 
 .navigation a:hover {
@@ -333,7 +334,7 @@ nav {
 #article-style {
     margin: 0 auto;
     padding-bottom: 300px;
-    background-color: white;
+    background-color: rgb(199, 210, 214);
     margin-top: 40px;
 }
 
