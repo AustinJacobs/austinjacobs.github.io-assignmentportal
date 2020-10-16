@@ -14,3 +14,8 @@ document.getElementById("current-date").innerHTML = days[d.getDay()] + ", " + d.
 
 // Copyright year for the footer.
 document.getElementById("copyright-year").innerHTML = (new Date().getFullYear());
+
+let date = days[d.getDay()]
+if (date == "Friday") {
+    document.getElementById("message").style.display = "block";
+}
