@@ -120,11 +120,7 @@
     footer {
         height: 27rem;
     }
-
-    #article-style {
-        padding-bottom: 500px;
-    }
-
+    
     #social-grid {
         grid-column: 2/3;
         grid-row: 2/3;

@@ -83,7 +83,6 @@ h2 {
 }
 
 footer {
-    position: absolute;
     bottom: 0;
     width: 100%;
     height: 16rem;
@@ -333,7 +332,6 @@ nav {
 
 #article-style {
     margin: 0 auto;
-    padding-bottom: 300px;
     background-color: rgb(199, 210, 214);
     margin-top: 40px;
 }
