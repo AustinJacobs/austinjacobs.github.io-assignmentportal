@@ -37,15 +37,11 @@
         <div id="main-footer">
             <main>
                 <div class="hero-div">
-                    <picture>
-                        <img id="hero-img" src="images/franklin_960_large.jpg" alt="Image of Preston, Idaho." srcset="images/franklin_400_small.jpg 400w,
-                            images/franklin_760_medium.jpg 760w,
-                            images/franklin_960_large.jpg 960w" 
-                            
-                            sizes="(max-width: 400px) 400px,
-                            (max-width: 760px) 760px,
-                            (max-width: 960px) 960px">
-                    </picture>
+                            <picture>
+                                <source media="(max-width: 425px)" srcset="images/franklin-425px.jpg">
+                                <source media="(max-width: 745px)" srcset="images/franklin-745px.jpg">
+                                <img id="hero-img" src="images/franklin-960px.jpg" alt="Preston hero image.">
+                            </picture>
                     <section class="weather-overlay">
                         <h2 class="summary-title">Weather Summary</h2>
                         <table id="weather-summary-table">
@@ -55,11 +51,11 @@
                             </tr>
                             <tr>
                                 <td class="table-keys">High: </td>
-                                <td class="table-values"><span id="temp">44</span>°F</td>
+                                <td class="table-values"><span id="temp">34</span>°F</td>
                             </tr>
                             <tr>
                                 <td class="table-keys">Wind Chill: </td>
-                                <td class="table-values"><span id="wind-chill">no js</span></td>
+                                <td class="table-values"><span id="wind-chill">n/a</span></td>
                             </tr>
                             <tr>
                                 <td class="table-keys">Humidity: </td>
@@ -67,7 +63,7 @@
                             </tr>
                             <tr>
                                 <td class="table-keys">Wind Speed: </td>
-                                <td class="table-values"><span id="wind">15</span>mph</td>
+                                <td class="table-values"><span id="wind">12</span>mph</td>
                             </tr>
                         </table>
                     </section>
