@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    background-color: #ECECEC;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* phone or baseline views **************************/
+header {
+    background-color: #203354;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: left;
+    margin-top: 35px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#motto {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+    margin-top: 80px;
+    padding-left: 3px;
+    color: #FFD400;
+}
+
+header,
+nav {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 10px;
+    color: #203354;
+}
+
+p {
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+#image-logo {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 10px;
+    padding-top: 20px;
+    color: #436CB1
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;
+    background-color: #203354;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100%;
+}
+/* Small/Phone View ***************/
+
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #436CB1;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+    color: white;
+    padding: .8rem;
+}
+
+#nav .current {
+    background-color: #FFD400;
+    color: #203354;
+}
+
+.navigation a:hover {
+    background-color: #FFD400;
+    color: #203354;
+}
+
+.responsive li {
+	display: block;
+}
+
+#message {
+    background-color: #FFD400;
+    display: none;
+    text-align: center;
+    padding: 1em;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center;
+    padding-bottom: 1rem;
+}
+
+.grid-item p {
+    text-align: center;
+    text-shadow: 1px 1px 1px lightgray;
+}
+
+.grid-item img {
+    max-width: 100%;
+}
+
+.grid-item {
+    border: 1px solid black;
+}
+
+.gallery-title {
+    text-align: center;
+}
