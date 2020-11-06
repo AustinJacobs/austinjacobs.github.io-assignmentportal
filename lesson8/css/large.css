@@ -36,6 +36,30 @@
         max-width: 960px;
         margin: 0 auto;
     }
+    footer {
+        max-width: 960px;
+    }
+
+    #gallery-footer {
+        height: 3.5rem;
+    }
+    
+    .hero-div {
+        position: relative;
+    }
+
+    .weather-overlay {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        width: 250px;
+    }
+
+    #article-image {
+       width: 400px; 
+       float: right;
+    }
+
     .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -45,5 +69,4 @@
         box-shadow: 0 0 28px #555;
         
     }
-
 }
