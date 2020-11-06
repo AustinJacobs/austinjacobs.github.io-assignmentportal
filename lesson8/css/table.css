@@ -41,16 +41,20 @@ tbody tr:nth-child(odd) {
     background-color: #e7f0ed;
 }
 
-thead tr:first-child {
+thead td {
     background-color: #7fb9c2;
-    font-size: 25px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
 
+thead th {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 thead tr:nth-child(2) {
     background-color: #628ca6;
-    color: white; 
-    
+    color: white;
 }
 
 tbody tr:nth-child(4) td:nth-child(3) {
