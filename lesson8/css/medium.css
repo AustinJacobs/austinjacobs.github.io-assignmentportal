@@ -138,4 +138,11 @@
         grid-template-columns: 1fr 1fr;
         padding-bottom: 1rem;
     }
+    form label.sbs {
+        padding: .4rem 0;
+    }
+    form label.top input, form label.top select {
+        width: 90%;
+        max-width: 20rem;
+    }
 }
