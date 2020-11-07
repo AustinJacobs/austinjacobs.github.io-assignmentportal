@@ -47,17 +47,17 @@
                                     required></label>
                         </div>
                         <div id="form-item">
-                            <label class="top" for="email">Email Address
+                            <label class="top" for="email-center">Email Address
                                 <input type="email" id="email-center" name="email" placeholder="somebody@example.com"></label>
                         </div>
                         <div class="form-item">
-                            <label class="top" for="phone">Phone Number*
+                            <label class="top" for="phone-center">Phone Number*
                                 <input type="tel" id="phone-center" name="phone" pattern="\d{10}" placeholder="1234567890"
                                     required></label>
                         </div>
                         <div class="form-item">
                             <label class="top" for="zip">Zip Code*
-                                <input type="number" id="zip" name="zip" pattern="\d{5}" placeholder="12345"
+                                <input type="text" id="zip" name="zip" pattern="\d{5}" placeholder="12345"
                                     required></label>
                         </div>
                     </fieldset>
@@ -115,12 +115,12 @@
                         </div><br>
                         <div class="form-item">
                             <label id="comments-box" class="form-color" for="comments">Additional Comments
-                                <textarea class="comments" placeholder="Comments"></textarea></label>
+                                <textarea id="comments" class="comments" placeholder="Comments"></textarea></label>
                         </div>
                     </fieldset>
                     <div class="form-item">
                         <label for="submit">
-                            <input class="sub-button" type="submit" name="submit" value="Submit Storm Information"></label>
+                            <input class="sub-button" id="submit" type="submit" name="submit" value="Submit Storm Information"></label>
                     </div>
                 </form>
             </div>
