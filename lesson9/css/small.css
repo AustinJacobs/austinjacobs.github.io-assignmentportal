@@ -554,3 +554,66 @@ form input#rating {
 form div.rating-block {
     color: #203354;
 }
+
+.home-title {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#home-article-image {
+    max-width: 100%;
+    padding: 1rem;
+}
+
+#home-article-title {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+#home-article-body {
+    padding: 1rem;
+}
+
+#home-section {
+    background-color: #FFD400;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#calendar {
+    display: none;
+}
+
+#home-images {
+    max-width: 100%;
+    padding: 1rem;
+}
+
+#home-motto {
+    padding-left: .5rem;
+    margin-top: -10px;
+    text-align: center;
+}
+
+#home-data-name {
+    text-align: center;
+}
+
+#home-year {
+    padding-left: .5rem;
+}
+
+#home-pop {
+    padding-left: .5rem;
+}
+
+#home-rain {
+    padding-left: .5rem;
+}
+
+
