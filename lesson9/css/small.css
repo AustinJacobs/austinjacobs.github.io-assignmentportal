@@ -592,6 +592,7 @@ form div.rating-block {
 #home-images {
     max-width: 100%;
     padding: 1rem;
+    margin: 0 auto;
 }
 
 #home-motto {
@@ -616,4 +617,10 @@ form div.rating-block {
     padding-left: .5rem;
 }
 
+#home-article-image {
+    display: none;
+}
 
+#author {
+    margin-left: 1.7rem;
+}
