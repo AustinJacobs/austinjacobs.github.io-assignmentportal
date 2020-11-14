@@ -49,6 +49,7 @@
 
     footer {
         max-width: 960px;
+        border-radius: 5px;
     }
 
     #gallery-footer {
@@ -64,6 +65,7 @@
         top: 40px;
         left: 40px;
         width: 250px;
+        border-radius: 5px;
     }
 
     #article-image {
