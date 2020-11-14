@@ -630,4 +630,10 @@ form div.rating-block {
     margin-left: 1.7rem;
 }
 
+#home-hero-img {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    padding-top: 2rem;
+}
 
