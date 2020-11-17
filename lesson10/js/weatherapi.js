@@ -1,4 +1,4 @@
-let URL = "http://api.openweathermap.org/data/2.5/weather?units=imperial&id=";
+let URL = "https://api.openweathermap.org/data/2.5/weather?units=imperial&id=";
 
 let cityID = "5604473";
 
