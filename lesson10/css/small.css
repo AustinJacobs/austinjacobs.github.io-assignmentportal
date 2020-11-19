@@ -155,6 +155,7 @@ nav {
     color: white;
     margin: 0 auto;
     margin-top: -20px;
+    margin-bottom: 10px;
     text-align: left;
 }
 
@@ -635,5 +636,9 @@ form div.rating-block {
     margin: 0 auto;
     padding: 1rem;
     padding-top: 2rem;
+}
+
+.capitalize {
+    text-transform: capitalize;
 }
 

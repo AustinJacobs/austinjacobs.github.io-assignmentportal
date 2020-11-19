@@ -60,11 +60,15 @@
         position: relative;
     }
 
+    .summary-title {
+        margin-bottom: 10px;
+    }
+
     .weather-overlay {
         position: absolute;
         top: 40px;
         left: 40px;
-        width: 250px;
+        width: 280px;
         border-radius: 5px;
     }
 
