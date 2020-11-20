@@ -190,6 +190,12 @@ nav {
     width: 100%;
 }
 
+.icons {
+   margin: 0 auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
 #unit-grid-1 {
     display: grid;
     grid-template-columns: 1fr;
@@ -641,4 +647,13 @@ form div.rating-block {
 .capitalize {
     text-transform: capitalize;
 }
+
+#imagesrc {
+    display: none;
+}
+
+#imagesrc-1 {
+    display: none;
+}
+
 
