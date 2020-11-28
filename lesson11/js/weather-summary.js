@@ -46,7 +46,7 @@ fetch(apiURL)
             windChill = "n/a";
         }
 
-        document.getElementById("wind-chill").textContent = windChill.toFixed(0);
+        document.getElementById("wind-chill").textContent = Math.round(windChill);
     });
 
 

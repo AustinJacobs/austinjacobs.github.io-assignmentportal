@@ -10,7 +10,6 @@ fetch(getURL)
         const towns = jsonObject['towns'];
         for (let i = 0; i < towns.length; i++) {
 
-
             if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
                 let card = document.createElement('section');
                 card.setAttribute("id", "home-section");
@@ -58,7 +57,7 @@ fetch(getURL)
         } // temporary checking for valid response and data parsing
     });
 
-    fetch(getURL)
+fetch(getURL)
     .then(function (response) {
         return response.json();
     })
@@ -93,9 +92,7 @@ fetch(getURL)
                 area.appendChild(p_event_3);
 
                 document.querySelector("div.town-events-grid").appendChild(area);
-            };
-
-            if (pagename == "Preston, Idaho" && towns[i].name == "Preston") {
+            } else if (pagename == "Preston, Idaho" && towns[i].name == "Preston") {
                 p_event_1.textContent = towns[i].events[0];
                 p_event_1.setAttribute("class", "event");
 
@@ -112,9 +109,7 @@ fetch(getURL)
                 area.appendChild(p_event_3);
 
                 document.querySelector("div.town-events-grid").appendChild(area);
-            };
-
-            if (pagename == "Fish Haven, Idaho" && towns[i].name == "Fish Haven") {
+            } else if (pagename == "Fish Haven, Idaho" && towns[i].name == "Fish Haven") {
                 p_event_1.textContent = towns[i].events[0];
                 p_event_1.setAttribute("class", "event");
 
@@ -134,4 +129,3 @@ fetch(getURL)
             };
         } // temporary checking for valid response and data parsing
     });
-    
