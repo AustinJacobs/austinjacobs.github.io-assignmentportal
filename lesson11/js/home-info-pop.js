@@ -1,7 +1,7 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const getURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 
-fetch(requestURL)
+fetch(getURL)
     .then(function (response) {
         return response.json();
     })
@@ -57,3 +57,81 @@ fetch(requestURL)
             };
         } // temporary checking for valid response and data parsing
     });
+
+    fetch(getURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        console.table(jsonObject);
+        const towns = jsonObject['towns'];
+        for (let i = 0; i < towns.length; i++) {
+
+            let pagename = document.getElementById("pagename").innerHTML;
+
+            let area = document.createElement("section");
+            area.setAttribute("id", "event-area");
+            let p_event_1 = document.createElement("p");
+            let p_event_2 = document.createElement("p");
+            let p_event_3 = document.createElement("p");
+            let p_event_4 = document.createElement("p");
+
+            if (pagename == "Soda Springs, Idaho" && towns[i].name == "Soda Springs") {
+                p_event_1.textContent = towns[i].events[0];
+                p_event_1.setAttribute("class", "event");
+
+                area.appendChild(p_event_1);
+
+                p_event_2.textContent = towns[i].events[1];
+                p_event_2.setAttribute("class", "event");
+
+                area.appendChild(p_event_2);
+
+                p_event_3.textContent = towns[i].events[2];
+                p_event_3.setAttribute("class", "event");
+
+                area.appendChild(p_event_3);
+
+                document.querySelector("div.town-events-grid").appendChild(area);
+            };
+
+            if (pagename == "Preston, Idaho" && towns[i].name == "Preston") {
+                p_event_1.textContent = towns[i].events[0];
+                p_event_1.setAttribute("class", "event");
+
+                area.appendChild(p_event_1);
+
+                p_event_2.textContent = towns[i].events[1];
+                p_event_2.setAttribute("class", "event");
+
+                area.appendChild(p_event_2);
+
+                p_event_3.textContent = towns[i].events[2];
+                p_event_3.setAttribute("class", "event");
+
+                area.appendChild(p_event_3);
+
+                document.querySelector("div.town-events-grid").appendChild(area);
+            };
+
+            if (pagename == "Fish Haven, Idaho" && towns[i].name == "Fish Haven") {
+                p_event_1.textContent = towns[i].events[0];
+                p_event_1.setAttribute("class", "event");
+
+                area.appendChild(p_event_1);
+
+                p_event_2.textContent = towns[i].events[1];
+                p_event_2.setAttribute("class", "event");
+
+                area.appendChild(p_event_2);
+
+                p_event_3.textContent = towns[i].events[2];
+                p_event_3.setAttribute("class", "event");
+
+                area.appendChild(p_event_3);
+
+                document.querySelector("div.town-events-grid").appendChild(area);
+            };
+        } // temporary checking for valid response and data parsing
+    });
+    
