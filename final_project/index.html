@@ -13,45 +13,119 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Khula&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/srq0soo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <title>Scoots | Home</title>
 </head>
 
 <body>
+
     <div id="weather-banner">84°F & Cloudy with 85% humidity and it will be 79°F & Sunny in 5 days from now.</div>
     <header>
-        <a href="index.html"><img id="image-logo" src="images/logo-cropped.jpg" alt="website logo"></a>
+        <a href="index.html"><img id="image-logo" src="images/logo-cropped200x200.png" alt="website logo"></a>
 
         <p id="motto">Let's get your rolling.</p>
     </header>
-    <nav>
-        <ul id="nav" class="navigation">
-            <li><a class="ham" href="#">&#9776;</a></li>
-            <li><a class="current" href="index.html">HOME</a></li>
-            <li><a href="#">RENTALS</a></li>
-            <li><a href="#">RESERVATIONS</a></li>
-            <li><a href="#">TOURS</a></li>
-            <li><a href="#">CONTACT</a></li>
-        </ul>
-    </nav>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#">HOME</a>
+            <a href="#">RENTALS</a>
+            <a href="#">RESERVATIONS</a>
+            <a href="#">TOURS</a>
+            <a href="#">CONTACT</a>
+        </div>
+    </div>
+    <span id="burger" onclick="openNav()">&#9776;</span>
+
     <hr id="first-hr">
     <section id="home-rentals">
-        <h1 id="home-title">Let's Find You The Perfect Rental</h1>
-        <img id="home-rentals-image" src="images/kumpan-cropped-400x556.jpg" alt="Woman standing by scooter on the beach.">
+        <h1 id="home-title">Let's Find You The <span class="font-title">Perfect Rental</span> </h1>
+        <img id="home-rentals-image" src="images/kumpan-cropped-400x556.jpg"
+            alt="Woman standing by scooter on the beach.">
         <form id="home-form" action="rentals.html">
             <label for="vehicle-type"></label>
             <select name="vehicle-type" id="vehicle-type">
-            <option value="" selected disabled>Vehicle Type
-              <option value="Scooter">Scooter</option>
-              <option value="ATV">ATV</option>
-              <option value="Jeep">Jeep</option>
+                <option value="" selected disabled>Vehicle Type
+                <option value="Scooter">Scooter</option>
+                <option value="ATV">ATV</option>
+                <option value="Jeep">Jeep</option>
             </select>
             <br><br>
-            <input type="submit" value="Submit">
-          </form>
+            <label for="vehicle-model"></label>
+            <select name="vehicle-model" id="vehicle-model">
+                <option value="" selected disabled>Vehicle Model
+                <option value="" disabled>Honda Motor Scooters
+                <option value="Honda Metropolitan (49cc)">Honda Metropolitan (49cc)</option>
+                <option value="Honda Dio (110cc)">Honda Dio (110cc)</option>
+                <option value="Honda PCX150 (149cc)">Honda PCX150 (149cc)</option>
+
+                <option value="" disabled>ATV Side-by-Side
+                <option value="Honda Pioneer 1000">Honda Pioneer 1000</option>
+
+                <option value="" disabled>Jeep Rentals
+                <option value="4-door Jeep Wrangler">4-door Jeep Wrangler</option>
+                <option value="2-door Jeep Wrangler">2-door Jeep Wrangler</option>
+            </select>
+            <br><br>
+            <input id="home-rental-button" type="submit" value="Get My Rental">
+        </form>
     </section>
+    <section id="home-rental-cards">
+        <h1 id="home-rental-cards-title">Which Rental Is Right For You?</h1>
+        <hr id="home-rental-cards-hr">
+        <div class="home-card">
+            <h1 class="home-card-title">Scooters</h1>
+            <hr class="home-card-hr">
+            <p class="home-card-p">Our favorite type of transport. Scooters in Cozumel are the speediest and most sought
+                after mode of transportation. Scooter will save you on gas and get you just about anywhere you need to
+                go. They are also environmentally friendly!</p>
+            <img class="home-card-image" src="images/jeep-isolated.png">
+        </div>
+        <div class="home-card">
+            <h1 class="home-card-title">ATV's</h1>
+            <hr class="home-card-hr">
+            <p class="home-card-p">What you get is right in the name. This rugged all terrain vehicle will get you
+                through anything you want. ATV's in Cozumel are restricted to dirt roads only, so say chau to the city
+                lights and bustling highways. We recommend renting ATV's if your stay is far from the city.</p>
+            <img class="home-card-image" src="images/jeep-isolated.png">
+        </div>
+        <div class="home-card">
+            <h1 class="home-card-title">Jeeps</h1>
+            <hr class="home-card-hr">
+            <p class="home-card-p">What can't you do in a Jeep? Scoot's Jeeps are decked out and ready for any
+                adventure. Both street and trail legal, Jeeps are a great rental option for the all around adventurer.
+                Jeep's are the perfect way to spend time in both the city and country, but beware of the fuel economy.
+            </p>
+            <img class="home-card-image" src="images/jeep-isolated.png">
+        </div>
+    </section>
+    <footer>
+        <a href="index.html"><img id="image-logo-footer" src="images/logo-cropped200x200.png" alt="website logo"></a>
+        <div class="footer-contact">
+            <h2 id="home-contact-title">Contact Us</h2>
+            <i id="pin" class="fas fa-map-marker-alt"><span class="i-font">189 Calle 45 Oeste 77600</span></i>
+            <i id="phone" class="fas fa-phone-alt"><span class="i-font">52.800.987.3458</span></i>
+            <i id="clock" class="fas fa-clock"><span class="i-font">Open Mon-Sun</br> <span class="i-font-time">7:00
+                        a.m. - 9:00 p.m.</span></span></i>
+        </div>
+        <div id="footer-social">
+            <i id="facebook" class="fab fa-facebook"></i>
+            <i id="twitter" class="fab fa-twitter"></i>
+            <i id="instagram" class="fab fa-instagram"></i>
+        </div>
+        <hr id="footer-hr">
+        <div id="copyright">
+            Copyright &copy; <span id="copyright-year"></span> Scoots
+            <div></div><span id="current-date"></span></div>
+        </div>
+    </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/main.js"></script>
     <script src="js/font.js"></script>
+    <script src="js/footer.js"></script>
 </body>
 
 </html>
