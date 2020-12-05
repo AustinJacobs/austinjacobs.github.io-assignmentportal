@@ -40,13 +40,6 @@ body {
     display: none;
 }
 
-#first-hr {
-    margin-top: 10px;
-    background-color: #e0e0e0;
-    height: 1px;
-    border: white;
-}
-
 #home-rentals {
     /* background-image: url('final_project/images/kumpan-cropped-400x556.jpg'); */
     width: 100%;
@@ -69,9 +62,9 @@ body {
 }
 
 #home-rentals-image {
-    max-width: 100%;
+    width: 100%;
     position: absolute;
-    top: 115px;
+    top: 120px;
     z-index: -1;
     opacity: 80%;
 }
@@ -168,10 +161,15 @@ body {
     padding: 10px;
     border-radius: 5px;
     border: 2px solid #e0e0e0;
+    background-color: white;
+}
+
+#home-rental-cards {
+    margin-top: 200px;
 }
 
 #home-rental-cards-title {
-    margin-top: 180px;
+    
     text-align: center;
     color: black;
     padding-left: 1rem;
