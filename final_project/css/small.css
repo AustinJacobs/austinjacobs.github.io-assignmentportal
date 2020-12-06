@@ -29,12 +29,12 @@ body {
 #image-logo {
     max-width: 30%;
     display: block;
+    margin-top: 5px;
 }
 
 #motto {
     text-align: center;
     font-size: 20px;
-    margin-bottom: 10px;
     display: none;
 }
 
@@ -46,7 +46,6 @@ body {
 #home-title {
     text-align: center;
     padding: 10px;
-    margin-top: 60px;
     color: white;
     text-shadow: 1px 1px #555;
     font-size: 38px;
@@ -78,10 +77,10 @@ body {
 
 #home-rentals-image {
     width: 100%;
-    position: absolute;
-    top: 120px;
     z-index: -1;
     opacity: 90%;
+    position: absolute;
+    top: 55px;
 }
 
 #home-form {
@@ -148,23 +147,26 @@ body {
 
 nav {
     position: sticky;
-    background-color:white;
+    background: white;
+    background: linear-gradient(180deg, rgba(64,224,176,1) 0%, rgba(64,208,201,1) 100%);
     width: 100%;
     top: 0;
     left: 0;
     padding: 10px;
+    height: 80px;
 }
 
 #burger {
-    font-size: 30px;
+    font-size: 35px;
     cursor: pointer;
     float: right;
-    margin-top: -35px;
+    margin-top: -33px;
     margin-right: 20px;
+    color:white;
 }
 
 #vehicle-type {
-    width: 160px;
+    width: 190px;
     padding: 6px;
     border-radius: 5px;
     background-color: white;
@@ -173,7 +175,7 @@ nav {
 }
 
 #vehicle-model {
-    width: 160px;
+    width: 190px;
     padding: 6px;
     border-radius: 5px;
     background-color: white;
@@ -252,6 +254,8 @@ footer {
     background-color: white;
     width: 100%; 
     display: block;
+    background: white;
+    background: linear-gradient(180deg, rgba(64,224,176,1) 0%, rgba(64,208,201,1) 100%);
 }
 
 i {
@@ -263,6 +267,7 @@ i {
     text-align: center;
     margin: 1rem;
     text-decoration: underline;
+    color: white;
 }
 
 #image-logo-footer {
@@ -277,6 +282,7 @@ i {
     text-align: left;
     margin: 10px;
     margin-left: 60px;
+    color: white;
 
 }
 
@@ -285,6 +291,7 @@ i {
     text-align: left;
     margin: 10px;
     margin-left: 60px;
+    color: white;
 
 }
 
@@ -293,17 +300,22 @@ i {
     text-align: left;
     margin: 10px;
     margin-left: 60px;
+    color: white;
 
 }
 
 .i-font {
     font-family: "Khula";
     margin-left: 20px;
+    color: white;
+
 }
 
 .i-font-time {
     font-family: "Khula";
     margin-left: 40px;
+    color: white;
+
 }
 
 #footer-social {
@@ -316,18 +328,21 @@ i {
 #facebook {
     font-size: 30px;
     margin: 10px;
+    color: white;
+
 }
 
 #twitter {
     font-size: 30px;
     margin: 10px;
+    color: white;
     
 }
 
 #instagram {
     font-size: 30px;
     margin: 10px;
-    
+    color: white;
 }
 
 #footer-hr {
@@ -339,5 +354,6 @@ i {
 #copyright {
     display: block;
     text-align: center;
-    margin-top: 10px;
+    padding: 15px;
+
 }
