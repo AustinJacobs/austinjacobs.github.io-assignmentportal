@@ -18,6 +18,10 @@ body {
     font-style: normal;
 } */
 
+h1 {
+    color: #40E0B0;
+}
+
 #weather-banner {
     background-color: #e0e0e0;
     width: 100%;
@@ -147,8 +151,7 @@ body {
 
 nav {
     position: sticky;
-    background: white;
-    background: linear-gradient(180deg, rgba(64,224,176,1) 0%, rgba(64,208,201,1) 100%);
+    background-color: white;
     width: 100%;
     top: 0;
     left: 0;
@@ -162,7 +165,7 @@ nav {
     float: right;
     margin-top: -33px;
     margin-right: 20px;
-    color:white;
+    color: #40e0b0;
 }
 
 #vehicle-type {
@@ -195,9 +198,7 @@ nav {
 }
 
 #home-rental-cards-title {
-    
     text-align: center;
-    color: black;
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 38px;
@@ -224,7 +225,7 @@ nav {
     font-size: 40px;
     margin-top: 10px;
     text-align: center;
-    color: black;
+    color: #40E0B0;
     text-shadow: .5px 1px #e0e0e0;
 }
 
@@ -254,8 +255,6 @@ footer {
     background-color: white;
     width: 100%; 
     display: block;
-    background: white;
-    background: linear-gradient(180deg, rgba(64,224,176,1) 0%, rgba(64,208,201,1) 100%);
 }
 
 i {
@@ -267,7 +266,8 @@ i {
     text-align: center;
     margin: 1rem;
     text-decoration: underline;
-    color: white;
+    color: black;
+    
 }
 
 #image-logo-footer {
@@ -282,7 +282,8 @@ i {
     text-align: left;
     margin: 10px;
     margin-left: 60px;
-    color: white;
+    color: #40e0b0;
+    
 
 }
 
@@ -291,7 +292,8 @@ i {
     text-align: left;
     margin: 10px;
     margin-left: 60px;
-    color: white;
+    color: #40e0b0;
+    
 
 }
 
@@ -300,21 +302,23 @@ i {
     text-align: left;
     margin: 10px;
     margin-left: 60px;
-    color: white;
+    color: #40e0b0;
+    
 
 }
 
 .i-font {
     font-family: "Khula";
     margin-left: 20px;
-    color: white;
+    color: black;
+
 
 }
 
 .i-font-time {
     font-family: "Khula";
     margin-left: 40px;
-    color: white;
+    color: black;
 
 }
 
@@ -328,21 +332,24 @@ i {
 #facebook {
     font-size: 30px;
     margin: 10px;
-    color: white;
+    color: #40e0b0;
+    
 
 }
 
 #twitter {
     font-size: 30px;
     margin: 10px;
-    color: white;
+    color: #40e0b0;
+    
     
 }
 
 #instagram {
     font-size: 30px;
     margin: 10px;
-    color: white;
+    color: #40e0b0;
+    
 }
 
 #footer-hr {
