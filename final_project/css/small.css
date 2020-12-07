@@ -34,7 +34,6 @@ h1 {
 #image-logo {
     max-width: 30%;
     display: block;
-    margin-top: 5px;
 }
 
 #motto {
@@ -159,14 +158,14 @@ nav {
     top: 0;
     left: 0;
     padding: 10px;
-    height: 80px;
+    height: 65px;
 }
 
 #burger {
     font-size: 35px;
     cursor: pointer;
     float: right;
-    margin-top: -33px;
+    margin-top: -38px;
     margin-right: 20px;
     color: #40e0b0;
 }
@@ -191,11 +190,18 @@ nav {
 
 #home-rental-button {
     padding: 15px;
+    font-size: 18px;
     border-radius: 5px;
     border: 2px solid #e0e0e0;
     color: white;
     background: white;
     background: linear-gradient(180deg, rgba(64,224,176,1) 0%, rgba(64,208,201,1) 100%);
+}
+
+#sun-island {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 #home-rental-cards {
@@ -288,7 +294,7 @@ i {
     display: block;
     text-align: left;
     margin: 10px;
-    margin-left: 60px;
+    margin-left: 80px;
     color: black;
     
 
@@ -298,7 +304,7 @@ i {
     display: block;
     text-align: left;
     margin: 10px;
-    margin-left: 60px;
+    margin-left: 80px;
     color: black;
     
 
@@ -308,7 +314,7 @@ i {
     display: block;
     text-align: left;
     margin: 10px;
-    margin-left: 60px;
+    margin-left: 80px;
     color: black;
     
 
