@@ -20,6 +20,7 @@ body {
 
 h1 {
     color: #40E0B0;
+    margin: 0;
 }
 
 #weather-banner {
@@ -54,6 +55,8 @@ h1 {
     text-shadow: 1px 1px #555;
     font-size: 38px;
     margin-bottom: 30px;
+    margin-top: 2rem;
+
 }
 
 #home-rental-us {
@@ -187,10 +190,12 @@ nav {
 }
 
 #home-rental-button {
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
     border: 2px solid #e0e0e0;
-    background-color: white;
+    color: white;
+    background: white;
+    background: linear-gradient(180deg, rgba(64,224,176,1) 0%, rgba(64,208,201,1) 100%);
 }
 
 #home-rental-cards {
@@ -202,6 +207,9 @@ nav {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 38px;
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 .home-rental-cards-hr {
@@ -211,36 +219,34 @@ nav {
     background-color: #e0e0e0;
     border-radius: 5px;
     border: none;
+    display: none;
 }
 
 .home-card {
     margin: 0 auto;
-    border: 2px solid #e0e0e0;
-    margin: 2rem;
+    margin: 1rem;
     border-radius: 5px;
 }
 
 .home-card-title {
-    margin: 0;
+    margin-left: 1rem;
     font-size: 40px;
-    margin-top: 10px;
-    text-align: center;
-    color: #40E0B0;
+    text-align: left;
+    color: black;
     text-shadow: .5px 1px #e0e0e0;
 }
 
 .home-card-hr {
-    width: 250px;
-    margin: 0 auto;
+    width: 190px;
+    margin-left: 1rem;
     height: 2px;
     background-color: #e0e0e0;
-    border-radius: 5px;
     border: none;
 }
 
 .home-card-p {
     margin: 1rem;
-    text-align: center;
+    text-align: left;
     color: black;
     text-shadow: .5px .5px #e0e0e0;
     font-size: 20px;
@@ -249,6 +255,7 @@ nav {
 .home-card-image {
     display: block;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 footer {
@@ -282,7 +289,7 @@ i {
     text-align: left;
     margin: 10px;
     margin-left: 60px;
-    color: #40e0b0;
+    color: black;
     
 
 }
@@ -292,7 +299,7 @@ i {
     text-align: left;
     margin: 10px;
     margin-left: 60px;
-    color: #40e0b0;
+    color: black;
     
 
 }
@@ -302,7 +309,7 @@ i {
     text-align: left;
     margin: 10px;
     margin-left: 60px;
-    color: #40e0b0;
+    color: black;
     
 
 }
