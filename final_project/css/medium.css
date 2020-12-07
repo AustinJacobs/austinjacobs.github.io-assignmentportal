@@ -1,4 +1,59 @@
 @media only screen and (min-width: 768px) {
-    
-    
+    #image-logo {
+        max-width: 15%;
+    }
+
+    nav {
+        height: 65px;
+        margin: 0 auto;
+        max-width: 100%
+    }
+
+    #burger {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: -35px;
+    }
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    .navigation a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        padding: .8rem;
+    }
+
+    #nav .current {
+        text-decoration: underline 2px #40e0b0;
+        color: black;
+    }
+
+    .navigation a:hover {
+        background-color: #8dcaff;
+    }
+
+    #home-title {
+        font-size: 50px;
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+
+    .font-title {
+        font-size: 60px;
+    }
+
 }
