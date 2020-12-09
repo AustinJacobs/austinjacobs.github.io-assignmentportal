@@ -171,17 +171,18 @@
     }
 
     .sidepanel {
-        height: 120px; /* Specify a height */
+        height: 120px;
+        /* Specify a height */
         border-radius: 0px 5px 5px 0px;
-      }
-    
-      .openbtn {
+    }
+
+    .openbtn {
         height: 60px;
         width: 220px;
-      }
-      
-      .openbtn:hover {
+    }
+
+    .openbtn:hover {
         background-color: white;
-      }
+    }
 
 }
