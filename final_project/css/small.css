@@ -11,7 +11,7 @@ body {
     font-family: "Khula", sans-serif;
     color: black;
     background-color: white;
-    max-width: 960px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -49,23 +49,24 @@ h1 {
     color: white;
     text-shadow: 1px 1px #555;
     font-size: 38px;
-    margin-bottom: 30px;
-    margin-top: 2rem;
+    margin-bottom: 4%;
+    margin-top: 6%;
 
 }
 
 #home-rental-us {
     text-align: center;
     font-size: 38px;
+    margin-top: -2rem;
 }
 
 #home-paragraph {
     text-align: center;
     margin: 0;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 3rem;
-    margin-top: 2rem;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 6%;
+    margin-top: 4%;
     font-size: 20px;
     color: black;
 }
@@ -163,8 +164,8 @@ nav {
     font-size: 35px;
     cursor: pointer;
     float: right;
-    margin-top: -38px;
-    margin-right: 20px;
+    margin-top: -9%;
+    margin-right: 4%;
     color: #40e0b0;
 }
 
@@ -208,22 +209,29 @@ nav {
 
 #home-rental-cards-title {
     text-align: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 4%;
+    padding-right: 4%;
     font-size: 38px;
     margin: 0;
     margin-top: 2rem;
-    margin-bottom: 3rem;
 }
 
-.home-rental-cards-hr {
+.home-rental-cards-hr-1 {
     width: 300px;
     margin: 0 auto;
     height: 2px;
     background-color: #e0e0e0;
     border-radius: 5px;
     border: none;
-    display: none;
+}
+
+.home-rental-cards-hr-2 {
+    width: 300px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    border: none;
 }
 
 .home-card {
@@ -233,8 +241,8 @@ nav {
 }
 
 .home-card-title {
-    margin-top: 3rem;
-    margin-left: 1rem;
+    margin-top: 4rem;
+    margin-left: 4%;
     font-size: 40px;
     text-align: left;
     color: black;
@@ -243,14 +251,14 @@ nav {
 
 .home-card-hr {
     width: 190px;
-    margin-left: 1rem;
+    margin-left: 4%;
     height: 2px;
     background-color: #e0e0e0;
     border: none;
 }
 
 .home-card-p {
-    margin: 1rem;
+    margin: 4%;
     text-align: left;
     color: black;
     text-shadow: .5px .5px #e0e0e0;
@@ -287,13 +295,14 @@ i {
     display: block;
     margin: 0 auto;
     padding-top: 20px;
+    padding-bottom: 1rem;
 }
 
 #pin {
     display: block;
     text-align: left;
-    margin: 10px;
-    margin-left: 80px;
+    margin-top: 1rem;
+    margin-left: 4rem;
     color: black;
     
 
@@ -302,8 +311,8 @@ i {
 #phone {
     display: block;
     text-align: left;
-    margin: 10px;
-    margin-left: 80px;
+    margin-top: 1rem;
+    margin-left: 4rem;
     color: black;
     
 
@@ -312,8 +321,8 @@ i {
 #clock {
     display: block;
     text-align: left;
-    margin: 10px;
-    margin-left: 80px;
+    margin-top: 10px;
+    margin-left: 4rem;
     color: black;
     
 
@@ -384,8 +393,6 @@ i {
 
 }
 
-/* How TO - Shrink Navigation Menu on Scroll */
-
 .sidepanel {
     height: 90px; /* Specify a height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -436,7 +443,7 @@ i {
   }
   
   .openbtn:hover {
-    background-color: #444;
+    background-color: white;
   }
   
   #arrow {

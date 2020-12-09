@@ -1,4 +1,57 @@
-@media only screen and (min-width: 960px) {
-    
-    
+@media only screen and (min-width: 1025px) {
+  #image-logo {
+    max-width: 10%;
   }
+
+  .navigation {
+    margin-top: -2.7rem;
+  }
+
+  .navigation a:hover {
+    background-color: #40d0c9;
+    border-radius: 5px;
+  }
+
+  #nav .current:hover {
+    text-decoration: underline 2px black;
+  }
+
+  #home-rental-us {
+    margin-top: 20rem;
+  }
+
+  #scoots-paragraph {
+    width: 800px;
+  }
+
+  #sun-island {
+    display: none;
+  }
+
+  #home-form {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  #vehicle-type {
+    justify-self: right;
+    grid-column: 2/3;
+  }
+
+  #vehicle-model {
+    grid-column: 3/4;
+  }
+
+  #home-rental-button {
+    justify-self: left;
+    grid-column: 4/5;
+  }
+
+
+
+
+
+
+
+
+
+}

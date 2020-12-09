@@ -51,8 +51,8 @@
     <section id="home-rentals">
         <picture>
             <source media="(max-width: 419px)" srcset="images/mobile-kumpan-cropped-420x542.jpg">
-            <source media="(max-width: 759px)" srcset="images/tablet-kumpan-760x758.jpg">
-            <img id="home-rentals-image" src="images/full-kumpan-960x704.jpg"
+            <source media="(max-width: 800px)" srcset="images/tablet-kumpan-800.jpg">
+            <img id="home-rentals-image" src="images/full-kumpan-1400x694.jpg"
                 alt="Image of girl with a scooter by the beach.">
         </picture>
         <div id="mySidepanel" class="sidepanel">
@@ -93,69 +93,80 @@
     </section>
     <section id="home-rental-cards">
         <h1 id="home-rental-us">We Are Scoots</h1>
-        <hr class="home-rental-cards-hr">
+        <hr class="home-rental-cards-hr-1">
+        <div id="scoots-paragraph">
         <p id="home-paragraph">Scoots is the leading motor scooter rental company on the island of Cozumel, Mexico.
             Scoots has two rental locations in Cozumel. One near the Playa del Carmen-Cozumel Ferry dock, and near the
-            Terminal Puerta Maya.</p>
+            Terminal Puerta Maya.</p></div>
         <!-- <img id="sun-island" src="images/mobile-sunisland-420.jpg" alt="A sunny island."> -->
         <picture>
             <source media="(max-width: 419px)" srcset="images/mobile-sunisland-420.jpg">
-            <source media="(max-width: 759px)" srcset="images/tablet-sun-island-760x759.jpg">
+            <source media="(max-width: 800px)" srcset="images/tablet-island-800.jpg">
             <img id="sun-island" src="images/full-sun-island-960x641.jpg"
                 alt="Image of girl with a scooter by the beach.">
         </picture>
         <h1 id="home-rental-cards-title">Which Rental Is Right For You?</h1>
-        <hr class="home-rental-cards-hr">
-        <div class="home-card">
-            <h1 class="home-card-title">Scooters</h1>
-            <hr class="home-card-hr">
-            <p class="home-card-p">Our favorite type of transport. Scooters in Cozumel are the speediest and most
-                sought
-                after mode of transportation. Scooter will save you on gas and get you just about anywhere you need
-                to
-                go. They are also environmentally friendly!</p>
+        <hr class="home-rental-cards-hr-2">
+        <div id="cards-grid">
+            <div id="scooter-item" class="home-card">
+                <h1 class="home-card-title">Scooters</h1>
+                <hr class="home-card-hr">
+                <p id="scooter-p" class="home-card-p">Our favorite type of transport. Scooters in Cozumel are the speediest and most
+                    sought
+                    after mode of transportation. Scooter will save you on gas and get you just about anywhere you need
+                    to
+                    go. They are also environmentally friendly!</p>
+                <img class="home-card-image" src="images/mobile-scooter-420.jpg"
+                    alt="A scooter on an orange background.">
+            </div>
+
+
+            <div id="atv-item" class="home-card">
+                <h1 class="home-card-title">ATV's</h1>
+                <hr class="home-card-hr">
+                <p class="home-card-p">What you get is right in the name. This rugged all terrain vehicle will get you
+                    through anything you want. ATV's in Cozumel are restricted to dirt roads only, so say chau to the
+                    city
+                    lights and bustling highways. We recommend renting ATV's if your stay is far from the city.</p>
+                <img class="home-card-image" src="images/mobile-ATV-420.jpg" alt="A scooter on an orange background.">
+            </div>
+
+
+            <div id="jeep-item" class="home-card">
+                <h1 class="home-card-title">Jeeps</h1>
+                <hr class="home-card-hr">
+                <p class="home-card-p">What can't you do in a Jeep? Scoot's Jeeps are decked out and ready for any
+                    adventure. Both street and trail legal, Jeeps are a great rental option for the all around
+                    adventurer.
+                    Jeep's are the perfect way to spend time in both the city and country, but beware of the fuel
+                    economy.
+                </p>
+                <img class="home-card-image" src="images/mobile-jeep-420.jpg" alt="A scooter on an orange background.">
+
+            </div>
+
         </div>
-        <img class="home-card-image" src="images/mobile-scooter-420.jpg" alt="A scooter on an orange background.">
-
-        <div class="home-card">
-            <h1 class="home-card-title">ATV's</h1>
-            <hr class="home-card-hr">
-            <p class="home-card-p">What you get is right in the name. This rugged all terrain vehicle will get you
-                through anything you want. ATV's in Cozumel are restricted to dirt roads only, so say chau to the
-                city
-                lights and bustling highways. We recommend renting ATV's if your stay is far from the city.</p>
-        </div>
-        <img class="home-card-image" src="images/mobile-ATV-420.jpg" alt="A scooter on an orange background.">
-
-        <div class="home-card">
-            <h1 class="home-card-title">Jeeps</h1>
-            <hr class="home-card-hr">
-            <p class="home-card-p">What can't you do in a Jeep? Scoot's Jeeps are decked out and ready for any
-                adventure. Both street and trail legal, Jeeps are a great rental option for the all around
-                adventurer.
-                Jeep's are the perfect way to spend time in both the city and country, but beware of the fuel
-                economy.
-            </p>
-
-        </div>
-        <img class="home-card-image" src="images/mobile-jeep-420.jpg" alt="A scooter on an orange background.">
-
     </section>
     <footer>
         <hr id="footer-hr-first">
-        <a href="index.html"><img id="image-logo-footer" src="images/multi-logo-cropped.png" alt="website logo"></a>
-        <div class="footer-contact">
-            <h2 id="home-contact-title">Contact Us</h2>
-            <i id="pin" class="fas fa-map-marker-alt"><span class="i-font">189 Calle 45 Oeste 77600</span></i>
-            <i id="phone" class="fas fa-phone-alt"><span class="i-font">52.800.987.3458</span></i>
-            <i id="clock" class="fas fa-clock"><span class="i-font">Open Monday-Saturday</br> <span
-                        class="i-font-time">7:00
-                        a.m. - 9:00 p.m.</span></span></i>
-        </div>
-        <div id="footer-social">
-            <a href="https://www.facebook.com"><i id="facebook" class="fab fa-facebook"></i></a>
-            <a href="https://www.twitter.com"><i id="twitter" class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com"><i id="instagram" class="fab fa-instagram"></i></a>
+        <div id="footer-grid">
+            <div id="footer-item-1">
+                <a href="index.html"><img id="image-logo-footer" src="images/multi-logo-cropped.png"
+                        alt="website logo"></a>
+            </div>
+            <div id="footer-item-2" class="footer-contact">
+                <h2 id="home-contact-title">Contact Us</h2>
+                <i id="pin" class="fas fa-map-marker-alt"><span class="i-font">189 Calle 45 Oeste 77600</span></i>
+                <i id="phone" class="fas fa-phone-alt"><span class="i-font">52.800.987.3458</span></i>
+                <i id="clock" class="fas fa-clock"><span class="i-font">Open Monday-Saturday</br> <span
+                            class="i-font-time">7:00
+                            a.m. - 9:00 p.m.</span></span></i>
+            </div>
+            <div id="footer-social">
+                <a href="https://www.facebook.com"><i id="facebook" class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com"><i id="twitter" class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com"><i id="instagram" class="fab fa-instagram"></i></a>
+            </div>
         </div>
         <hr id="footer-hr">
         <div id="copyright">
