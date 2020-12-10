@@ -82,7 +82,7 @@ h1 {
     display: block;
     max-width: 100%;
     z-index: -1;
-    opacity: 90%;
+    opacity: 80%;
     position: absolute;
     top: 55px;
     margin: 0 auto;
@@ -100,7 +100,7 @@ h1 {
     top: 0;
     left: 0;
     background: white;
-    background: linear-gradient(180deg, rgba(64,224,176,1) 0%, rgba(64,208,201,1) 100%);
+    background: linear-gradient(180deg, rgba(64, 224, 176, 1) 0%, rgba(64, 208, 201, 1) 100%);
     overflow-y: hidden;
     transition: 0.5s;
 }
@@ -194,7 +194,7 @@ nav {
     border: 2px solid #e0e0e0;
     color: white;
     background: white;
-    background: linear-gradient(180deg, rgba(64,224,176,1) 0%, rgba(64,208,201,1) 100%);
+    background: linear-gradient(180deg, rgba(64, 224, 176, 1) 0%, rgba(64, 208, 201, 1) 100%);
 }
 
 #sun-island {
@@ -270,11 +270,12 @@ nav {
     display: block;
     margin: 0 auto;
     max-width: 100%;
+    padding: 1rem;
 }
 
 footer {
     background-color: white;
-    width: 100%; 
+    width: 100%;
     display: block;
 }
 
@@ -288,7 +289,7 @@ i {
     margin: 1rem;
     text-decoration: underline;
     color: black;
-    
+
 }
 
 #image-logo-footer {
@@ -305,7 +306,7 @@ i {
     margin-top: 1rem;
     margin-left: 4rem;
     color: black;
-    
+
 
 }
 
@@ -315,7 +316,7 @@ i {
     margin-top: 1rem;
     margin-left: 4rem;
     color: black;
-    
+
 
 }
 
@@ -325,7 +326,7 @@ i {
     margin-top: 10px;
     margin-left: 4rem;
     color: black;
-    
+
 
 }
 
@@ -355,7 +356,7 @@ i {
     font-size: 30px;
     margin: 10px;
     color: #40e0b0;
-    
+
 
 }
 
@@ -363,15 +364,15 @@ i {
     font-size: 30px;
     margin: 10px;
     color: #40e0b0;
-    
-    
+
+
 }
 
 #instagram {
     font-size: 30px;
     margin: 10px;
     color: #40e0b0;
-    
+
 }
 
 #footer-hr {
@@ -395,45 +396,52 @@ i {
 }
 
 .sidepanel {
-    height: 90px; /* Specify a height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 5; /* Stay on top */
+    height: 90px;
+    /* Specify a height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 5;
+    /* Stay on top */
     top: 60;
     left: 0;
     background: white;
-    background: linear-gradient(180deg, rgba(64,224,176,1) 0%, rgba(64,208,201,1) 100%);
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 40px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+    background: linear-gradient(180deg, rgba(64, 224, 176, 1) 0%, rgba(64, 208, 201, 1) 100%);
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 40px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidepanel */
     border-radius: 0px 0px 5px 0px;
-  }
-  
-  .sidepanel a {
+}
+
+.sidepanel a {
     margin-right: -20px;
     text-decoration: none;
     font-size: 25px;
     color: white;
     display: block;
     transition: 0.3s;
-  }
-  
+}
 
-  .sidepanel a:hover {
+
+.sidepanel a:hover {
     color: #f1f1f1;
-  }
-  
+}
 
-  .sidepanel .closebtn {
+
+.sidepanel .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
-  
+}
 
-  .openbtn {
+
+.openbtn {
     font-size: 20px;
     cursor: pointer;
     background-color: white;
@@ -441,12 +449,79 @@ i {
     padding: 10px 15px;
     border: none;
     border-radius: 0px 0px 5px 0px;
-  }
-  
-  .openbtn:hover {
+}
+
+.openbtn:hover {
     background-color: white;
-  }
-  
-  #arrow {
-      color: #40e0b0;
+}
+
+#arrow {
+    color: #40e0b0;
+}
+
+#gallery-title {
+    font-size: 38px;
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: 0;
+    justify-items: center;
+    gap: 1rem;
+}
+
+#image-1 {
+    margin: 0 auto;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#image-2 {
+    margin: 0 auto;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#image-3 {
+    margin: 0 auto;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#image-4 {
+    margin: 0 auto;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#image-5 {
+    margin: 0 auto;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#image-6 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.home-rental-cards-hr-3 {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    width: 300px;
+    height: 2px;
+    background-color: #e0e0e0;
+    border: none;
   }

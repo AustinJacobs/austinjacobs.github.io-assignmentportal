@@ -3,6 +3,10 @@
     max-width: 10%;
   }
 
+  nav {
+    height: 70px;
+  }
+
   .navigation {
     margin-top: -2.7rem;
   }
@@ -21,11 +25,11 @@
   }
 
   #scoots-paragraph {
-    width: 800px;
+    width: 500px;
   }
 
   #sun-island {
-    display: none;
+    display: block;
   }
 
   #home-form {
@@ -46,12 +50,78 @@
     grid-column: 4/5;
   }
 
+  #home-rental-cards-title {
+    margin-top: 4rem;
+    text-align: center;
+  }
 
+  .home-card-title {
+    margin-top: 2rem;
+  }
 
+  .home-rental-cards-hr-2 {
+    margin: 0 auto;
+    width: 360px;
+  }
 
+  #home-title {
+    padding: 0;
+    margin: 0;
+    font-size: 100px;
+    margin-top: 3rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-bottom: 3rem;
+  }
 
+  .font-title {
+    font-size: 120px;
+  }
 
+  #footer-item-1 {
+    grid-column: 1/2;
+    align-self: center;
+    justify-self: center;
+    margin: 0;
+  }
 
+  #footer-item-2 {
+    grid-column: 2/3;
+    justify-self: center;
+  }
+
+  .footer-contact {
+    font-size: 16px;
+  }
+
+  #pin {
+    margin: 0;
+  }
+
+  #phone {
+    margin: 0;
+    margin-top: 1rem;
+  }
+
+  #clock {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #footer-social {
+    grid-column: 3/4;
+    margin: 0;
+    align-self: center;
+    justify-self: center;
+  }
+
+  #gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 1rem;
+  }
 
 
 }
