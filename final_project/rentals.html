@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Scoots is a scooter, ATV and Jeep rental website servicing two physical locations in Cozumel. Find your next rental at Scoots, and explore the beauty of Cozumel, Mexico.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Khula&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/srq0soo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Scoots | Home</title>
+</head>
+
+<body>
+
+    <nav>
+        <header>
+            <a href="index.html"><img id="image-logo" src="images/multi-logo-cropped.png" alt="website logo"></a>
+        </header>
+
+        <div>
+            <ul id="nav" class="navigation">
+                <li><a href="index.html">HOME</a></li>
+                <li><a class="current" href="rentals.html">RENTALS</a></li>
+                <li><a href="#">RESERVATIONS</a></li>
+                <li><a href="#">TOURS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">HOME</a>
+                <a href="rentals.html">RENTALS</a>
+                <a href="#">RESERVATIONS</a>
+                <a href="#">TOURS</a>
+                <a href="#">CONTACT</a>
+            </div>
+        </div>
+        <span id="burger" onclick="openNav()">&#9776;</span>
+    </nav>
+
+    <section id="home-rentals">
+        <picture>
+            <source media="(max-width: 419px)" srcset="images/rentals-420x420.jpg">
+            <source media="(max-width: 800px)" srcset="images/rentals-800x800.jpg">
+            <img id="home-rentals-image" src="images/full-rentals-1400x697.jpg"
+                alt="Image of a girl with a scooter by the beach.">
+        </picture>
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
+            <table id="weather-summary-table">
+                <tr>
+                    <td id="current-weather" class="table-keys">Weather Type: </td>
+                    <td class="table-values"><span class="capitalize" id="description"></span></td>
+                </tr>
+                <tr>
+                    <td class="table-keys">Current Temp: </td>
+                    <td class="table-values"><span id="temp"></span>°F</td>
+                </tr>
+                <tr>
+                    <td class="table-keys">Temp in 5 days: </td>
+                    <td class="table-values"><span id="f-temp"></span>°F</td>
+                </tr>
+                <tr>
+                    <td class="table-keys">Humidity: </td>
+                    <td class="table-values"><span id="humidity"></span>%</td>
+                </tr>
+                <tr>
+                    <td class="table-keys">Wind Speed: </td>
+                    <td class="table-values"><span id="wind"></span> mph</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <button class="openbtn" onclick="openSideNav()"><i id="arrow" class="fas fa-chevron-right"></i>
+            Weather Info</button>
+        <h1 id="rental-title">Rentals</h1>
+        <section id="rentals-information">
+            <h1 id="rental-info">Rental Information</h1>
+            <hr class="home-rental-cards-hr-1">
+            <table class="rental-info-table">
+                <tr class="rows">
+                    <th colspan="6" class="head">Max Persons and Price Chart (includes Tax)</th>
+                </tr>
+                <tr class="rows">
+                    <td colspan="2" class="head"></td>
+                    <td colspan="2" class="head">Reservation</td>
+                    <td colspan="2" class="head">Walk-In</td>
+                </tr>
+                <tr class="rows">
+                    <td class="data">Rental Type</td>
+                    <td class="data">Max. Persons</td>
+                    <td class="data">Half Day (3 hrs)</td>
+                    <td class="data">Full Day</td>
+                    <td class="data">Half Day (3 hrs)</td>
+                    <td class="data">Full Day</td>
+                </tr>
+                <tr class="rows">
+                    <td class="data">Honda Dio Scooter</td>
+                    <td class="data">2</td>
+                    <td class="data">$30</td>
+                    <td class="data">$40</td>
+                    <td class="data">$35</td>
+                    <td class="data">$45</td>
+                </tr>
+                <tr class="rows">
+                    <td class="data">Honda PCX150 Scooter</td>
+                    <td class="data">2</td>
+                    <td class="data">$40</td>
+                    <td class="data">$50</td>
+                    <td class="data">$45</td>
+                    <td class="data">$55</td>
+                </tr>
+                <tr class="rows">
+                    <td class="data">Honda Pioneer ATV</td>
+                    <td class="data">4</td>
+                    <td class="data">$50</td>
+                    <td class="data">$70</td>
+                    <td class="data">$60</td>
+                    <td class="data">$80</td>
+                </tr>
+                <tr class="rows">
+                    <td class="data">Jeep Wrangler - 4 door</td>
+                    <td class="data">5</td>
+                    <td class="data">$70</td>
+                    <td class="data">$100</td>
+                    <td class="data">$85</td>
+                    <td class="data">$125</td>
+                </tr>
+                <tr class="rows">
+                    <td class="data">Jeep Wrangler - 2 door</td>
+                    <td class="data">4</td>
+                    <td class="data">$60</td>
+                    <td class="data">$85</td>
+                    <td class="data">$70</td>
+                    <td class="data">$90</td>
+                </tr>
+            </table>
+        </section>
+
+        <footer>
+            <hr id="footer-hr-first">
+            <div id="footer-grid">
+                <div id="footer-item-1">
+                    <a href="index.html"><img id="image-logo-footer" src="images/multi-logo-cropped.png"
+                            alt="website logo"></a>
+                </div>
+                <div id="footer-item-2" class="footer-contact">
+                    <h2 id="home-contact-title">Contact Us</h2>
+                    <i id="pin" class="fas fa-map-marker-alt"><span class="i-font">189 Calle 45 Oeste 77600</span></i>
+                    <i id="phone" class="fas fa-phone-alt"><span class="i-font">52.800.987.3458</span></i>
+                    <i id="clock" class="fas fa-clock"><span class="i-font">Open Monday-Saturday</br> <span
+                                class="i-font-time">7:00
+                                a.m. - 9:00 p.m.</span></span></i>
+                </div>
+                <div id="footer-social">
+                    <a href="https://www.facebook.com"><i id="facebook" class="fab fa-facebook"></i></a>
+                    <a href="https://www.twitter.com"><i id="twitter" class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com"><i id="instagram" class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <hr id="footer-hr">
+            <div id="copyright">
+                Copyright &copy; <span id="copyright-year"></span> Scoots
+                <div></div><span id="current-date"></span></div>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/font.js"></script>
+        <script src="js/footer.js"></script>
+        <script src="js/weather.js"></script>
+        <script src="js/future_forecast.js"></script>
+</body>
+
+</html>
+
+
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.578772330222!2d-86.95550263509041!3d20.48248703629683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDI4JzU1LjQiTiA4NsKwNTcnMTQuNiJX!5e0!3m2!1sen!2sus!4v1607570547065!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->

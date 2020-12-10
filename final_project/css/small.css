@@ -1,527 +1,606 @@
-@charset "UTF-8";
+  /*BODY AND HOME PAGE CSS */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  @charset "UTF-8";
 
-body {
-    font-size: 16px;
-    font-family: "Khula", sans-serif;
-    color: black;
-    background-color: white;
-    max-width: 1400px;
-    margin: 0 auto;
-}
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
 
-.navigation {
-    display: none;
-}
+  body {
+      font-size: 16px;
+      font-family: "Khula", sans-serif;
+      color: black;
+      background-color: white;
+      max-width: 1400px;
+      margin: 0 auto;
+  }
 
-/* h1 {
+  .navigation {
+      display: none;
+  }
+
+  /* h1 {
     font-family: sarah-script, sans-serif;
     font-weight: 400;
     font-style: normal;
 } */
 
-h1 {
-    color: #40E0B0;
-    margin: 0;
-}
+  h1 {
+      color: #40E0B0;
+      margin: 0;
+  }
 
-#image-logo {
-    max-width: 30%;
-    display: block;
-}
+  #image-logo {
+      max-width: 30%;
+      display: block;
+  }
 
-#motto {
-    display: none;
-}
+  #motto {
+      display: none;
+  }
 
-#home-rentals {
-    width: 100%;
-}
+  #home-rentals {
+      width: 100%;
+  }
 
-#home-title {
+  #home-title {
+      text-align: center;
+      padding: 10px;
+      color: white;
+      text-shadow: 1px 1px #555;
+      font-size: 38px;
+      margin-bottom: 4%;
+      margin-top: 6%;
+  }
+
+  #home-rental-us {
+      text-align: center;
+      font-size: 38px;
+      margin-top: 2rem;
+  }
+
+  #home-paragraph {
+      text-align: center;
+      margin: 0;
+      margin-left: 4%;
+      margin-right: 4%;
+      margin-bottom: 6%;
+      margin-top: 4%;
+      font-size: 20px;
+      color: black;
+  }
+
+  .font-title {
+      font-family: sarah-script, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 50px;
+  }
+
+  #home-rentals-image {
+      display: block;
+      max-width: 100%;
+      z-index: -1;
+      opacity: 80%;
+      position: absolute;
+      top: 55px;
+      margin: 0 auto;
+  }
+
+  #home-form {
+      text-align: center;
+  }
+
+  .overlay {
+      height: 0%;
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background: white;
+      background: linear-gradient(180deg, rgba(64, 224, 176, 1) 0%, rgba(64, 208, 201, 1) 100%);
+      overflow-y: hidden;
+      transition: 0.5s;
+  }
+
+  .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+  }
+
+  .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: white;
+      display: block;
+      transition: 0.3s;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+      color: #f1f1f1;
+  }
+
+  .overlay .closebtn {
+      position: absolute;
+      top: 40px;
+      right: 45px;
+      font-size: 60px;
+  }
+
+  @media screen and (max-height: 450px) {
+      .overlay {
+          overflow-y: auto;
+      }
+
+      .overlay a {
+          font-size: 20px
+      }
+
+      .overlay .closebtn {
+          font-size: 40px;
+          top: 15px;
+          right: 35px;
+      }
+  }
+
+  nav {
+      position: sticky;
+      background-color: white;
+      width: 100%;
+      top: 0;
+      left: 0;
+      padding: 10px;
+      height: 65px;
+  }
+
+  #burger {
+      font-size: 35px;
+      cursor: pointer;
+      float: right;
+      margin-top: -9%;
+      margin-right: 4%;
+      color: #40e0b0;
+  }
+
+  #vehicle-type {
+      width: 190px;
+      padding: 6px;
+      border-radius: 5px;
+      background-color: white;
+      font-size: 20px;
+      border: 2px solid #e0e0e0;
+  }
+
+  #vehicle-model {
+      width: 190px;
+      padding: 6px;
+      border-radius: 5px;
+      background-color: white;
+      font-size: 20px;
+      border: 2px solid #e0e0e0;
+  }
+
+  #home-rental-button {
+      padding: 15px;
+      font-size: 18px;
+      border-radius: 5px;
+      border: 2px solid #e0e0e0;
+      color: white;
+      background: white;
+      background: linear-gradient(180deg, rgba(64, 224, 176, 1) 0%, rgba(64, 208, 201, 1) 100%);
+  }
+
+  #sun-island {
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 1rem;
+  }
+
+  #home-rental-cards {
+      margin-top: 200px;
+  }
+
+  #home-rental-cards-title {
+      text-align: center;
+      padding-left: 4%;
+      padding-right: 4%;
+      font-size: 38px;
+      margin: 0;
+      margin-top: 2rem;
+  }
+
+  .home-rental-cards-hr-1 {
+      width: 300px;
+      margin: 0 auto;
+      height: 2px;
+      background-color: #e0e0e0;
+      border-radius: 5px;
+      border: none;
+  }
+
+  .home-rental-cards-hr-2 {
+      width: 300px;
+      height: 2px;
+      margin: 0 auto;
+      background-color: #e0e0e0;
+      border-radius: 5px;
+      border: none;
+  }
+
+  .home-card {
+      margin: 0 auto;
+      margin: 1rem;
+      border-radius: 5px;
+  }
+
+  .home-card-title {
+      margin-top: 4rem;
+      margin-left: 4%;
+      font-size: 40px;
+      text-align: left;
+      color: black;
+      text-shadow: .5px 1px #e0e0e0;
+  }
+
+  .home-card-hr {
+      width: 190px;
+      margin-left: 4%;
+      height: 2px;
+      background-color: #e0e0e0;
+      border: none;
+  }
+
+  .home-card-p {
+      margin: 4%;
+      text-align: left;
+      color: black;
+      text-shadow: .5px .5px #e0e0e0;
+      font-size: 20px;
+  }
+
+  .home-card-image {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      padding: 1rem;
+  }
+
+  footer {
+      background-color: white;
+      width: 100%;
+      display: block;
+  }
+
+  i {
+      font-size: 20px;
+      color: black;
+  }
+
+  #home-contact-title {
+      text-align: center;
+      margin: 1rem;
+      text-decoration: underline;
+      color: black;
+
+  }
+
+  #image-logo-footer {
+      max-width: 40%;
+      display: block;
+      margin: 0 auto;
+      padding-top: 20px;
+      padding-bottom: 1rem;
+  }
+
+  #pin {
+      display: block;
+      text-align: left;
+      margin-top: 1rem;
+      margin-left: 4rem;
+      color: black;
+
+
+  }
+
+  #phone {
+      display: block;
+      text-align: left;
+      margin-top: 1rem;
+      margin-left: 4rem;
+      color: black;
+
+
+  }
+
+  #clock {
+      display: block;
+      text-align: left;
+      margin-top: 10px;
+      margin-left: 4rem;
+      color: black;
+
+
+  }
+
+  .i-font {
+      font-family: "Khula";
+      margin-left: 20px;
+      color: black;
+
+
+  }
+
+  .i-font-time {
+      font-family: "Khula";
+      margin-left: 40px;
+      color: black;
+
+  }
+
+  #footer-social {
+      width: 160px;
+      margin: 0 auto;
+      margin-top: 20px;
+      padding-bottom: 10px;
+  }
+
+  #facebook {
+      font-size: 30px;
+      margin: 10px;
+      color: #40e0b0;
+
+
+  }
+
+  #twitter {
+      font-size: 30px;
+      margin: 10px;
+      color: #40e0b0;
+
+
+  }
+
+  #instagram {
+      font-size: 30px;
+      margin: 10px;
+      color: #40e0b0;
+
+  }
+
+  #footer-hr {
+      background-color: #e0e0e0;
+      height: 1px;
+      border: white;
+  }
+
+  #footer-hr-first {
+      margin-top: 1rem;
+      background-color: #e0e0e0;
+      height: 1px;
+      border: white;
+  }
+
+  #copyright {
+      display: block;
+      text-align: center;
+      padding: 15px;
+
+  }
+
+  .sidepanel {
+      height: 180px;
+      width: 0;
+      /* 0 width - change this with JavaScript */
+      position: fixed;
+      z-index: 5;
+      top: 60;
+      left: 0;
+      background: white;
+      background: linear-gradient(180deg, rgba(64, 224, 176, 1) 0%, rgba(64, 208, 201, 1) 100%);
+      overflow-x: hidden;
+      padding-top: 2.5rem;
+      transition: 0.5s;
+      border-radius: 0px 5px 5px 0px;
+      color: white;
+  }
+
+  .sidepanel a {
+      margin-right: -15px;
+      margin-top: 5px;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      display: block;
+      transition: 0.3s;
+  }
+
+  .capitalize {
+      text-transform: capitalize;
+  }
+
+
+  .sidepanel a:hover {
+      color: #f1f1f1;
+  }
+
+
+  .sidepanel .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+  }
+
+
+  .openbtn {
+      font-size: 20px;
+      cursor: pointer;
+      background-color: white;
+      color: #40e0b0;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 0px 0px 5px 0px;
+  }
+
+  .openbtn:hover {
+      background-color: white;
+  }
+
+  #arrow {
+      color: #40e0b0;
+  }
+
+  #gallery-title {
+      font-size: 38px;
+      text-align: center;
+      margin-left: 2rem;
+      margin-top: 4rem;
+  }
+
+  #gallery {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 0;
+      margin: 0;
+      justify-items: center;
+      gap: 1rem;
+  }
+
+  #image-1 {
+      margin: 0 auto;
+      max-width: 100%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+
+  #image-2 {
+      margin: 0 auto;
+      max-width: 100%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+
+  #image-3 {
+      margin: 0 auto;
+      max-width: 100%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+
+  #image-4 {
+      margin: 0 auto;
+      max-width: 100%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+
+  #image-5 {
+      margin: 0 auto;
+      max-width: 100%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+
+  #image-6 {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      margin: 0 auto;
+      max-width: 100%;
+  }
+
+  .home-rental-cards-hr-3 {
+      margin: 0 auto;
+      margin-bottom: 1rem;
+      width: 300px;
+      height: 2px;
+      background-color: #e0e0e0;
+      border: none;
+  }
+
+  #temp {
+      text-align: left;
+  }
+
+  #description {
+      text-align: left;
+
+  }
+
+  #humidity {
+      text-align: left;
+
+  }
+
+  #wind {
+      text-align: left;
+
+  }
+
+  .table-keys {
+      font-size: 20px;
+      padding-left: .8rem;
+
+  }
+
+  .table-values {
+      font-size: 20px;
+      padding-left: 1rem;
+
+  }
+
+  /*RENTALS PAGE CSS */
+
+  #rental-title {
     text-align: center;
     padding: 10px;
     color: white;
     text-shadow: 1px 1px #555;
-    font-size: 38px;
+    font-size: 50px;
     margin-bottom: 4%;
     margin-top: 6%;
-
-}
-
-#home-rental-us {
-    text-align: center;
-    font-size: 38px;
-    margin-top: 2rem;
-}
-
-#home-paragraph {
-    text-align: center;
-    margin: 0;
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-bottom: 6%;
-    margin-top: 4%;
-    font-size: 20px;
-    color: black;
-}
-
-.font-title {
     font-family: sarah-script, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
-}
+  }
 
-#home-rentals-image {
-    display: block;
-    max-width: 100%;
-    z-index: -1;
-    opacity: 80%;
-    position: absolute;
-    top: 55px;
-    margin: 0 auto;
-}
+  #rental-info {
+      margin-top: 18rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      font-size: 38px;
+      color: #40e0b0;
+  }
 
-#home-form {
-    text-align: center;
-}
-
-.overlay {
-    height: 0%;
+  .rental-info-table {
+    border-collapse: collapse;
     width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background: white;
-    background: linear-gradient(180deg, rgba(64, 224, 176, 1) 0%, rgba(64, 208, 201, 1) 100%);
-    overflow-y: hidden;
-    transition: 0.5s;
-}
-
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: white;
-    display: block;
-    transition: 0.3s;
-}
-
-.overlay a:hover,
-.overlay a:focus {
-    color: #f1f1f1;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    top: 40px;
-    right: 45px;
-    font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-    .overlay {
-        overflow-y: auto;
-    }
-
-    .overlay a {
-        font-size: 20px
-    }
-
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
-}
-
-nav {
-    position: sticky;
-    background-color: white;
-    width: 100%;
-    top: 0;
-    left: 0;
-    padding: 10px;
-    height: 65px;
-}
-
-#burger {
-    font-size: 35px;
-    cursor: pointer;
-    float: right;
-    margin-top: -9%;
-    margin-right: 4%;
-    color: #40e0b0;
-}
-
-#vehicle-type {
-    width: 190px;
-    padding: 6px;
-    border-radius: 5px;
-    background-color: white;
-    font-size: 20px;
-    border: 2px solid #e0e0e0;
-}
-
-#vehicle-model {
-    width: 190px;
-    padding: 6px;
-    border-radius: 5px;
-    background-color: white;
-    font-size: 20px;
-    border: 2px solid #e0e0e0;
-}
-
-#home-rental-button {
-    padding: 15px;
-    font-size: 18px;
-    border-radius: 5px;
-    border: 2px solid #e0e0e0;
-    color: white;
-    background: white;
-    background: linear-gradient(180deg, rgba(64, 224, 176, 1) 0%, rgba(64, 208, 201, 1) 100%);
-}
-
-#sun-island {
-    display: block;
-    max-width: 100%;
-    margin: 0 auto;
+    height: 350px;
     padding: 1rem;
-}
-
-#home-rental-cards {
-    margin-top: 200px;
-}
-
-#home-rental-cards-title {
     text-align: center;
-    padding-left: 4%;
-    padding-right: 4%;
-    font-size: 38px;
-    margin: 0;
-    margin-top: 2rem;
-}
+  }
 
-.home-rental-cards-hr-1 {
-    width: 300px;
-    margin: 0 auto;
-    height: 2px;
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    border: none;
-}
+  .rows {
+      border: 1px solid black;
+  }
 
-.home-rental-cards-hr-2 {
-    width: 300px;
-    height: 2px;
-    margin: 0 auto;
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    border: none;
-}
+  .data {
+    border: 1px solid black;
+  }
 
-.home-card {
-    margin: 0 auto;
-    margin: 1rem;
-    border-radius: 5px;
-}
+  .head {
+    border: 1px solid black;
+  }
 
-.home-card-title {
-    margin-top: 4rem;
-    margin-left: 4%;
-    font-size: 40px;
-    text-align: left;
-    color: black;
-    text-shadow: .5px 1px #e0e0e0;
-}
-
-.home-card-hr {
-    width: 190px;
-    margin-left: 4%;
-    height: 2px;
-    background-color: #e0e0e0;
-    border: none;
-}
-
-.home-card-p {
-    margin: 4%;
-    text-align: left;
-    color: black;
-    text-shadow: .5px .5px #e0e0e0;
-    font-size: 20px;
-}
-
-.home-card-image {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    padding: 1rem;
-}
-
-footer {
-    background-color: white;
-    width: 100%;
-    display: block;
-}
-
-i {
-    font-size: 20px;
-    color: black;
-}
-
-#home-contact-title {
-    text-align: center;
-    margin: 1rem;
-    text-decoration: underline;
-    color: black;
-
-}
-
-#image-logo-footer {
-    max-width: 40%;
-    display: block;
-    margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 1rem;
-}
-
-#pin {
-    display: block;
-    text-align: left;
-    margin-top: 1rem;
-    margin-left: 4rem;
-    color: black;
-
-
-}
-
-#phone {
-    display: block;
-    text-align: left;
-    margin-top: 1rem;
-    margin-left: 4rem;
-    color: black;
-
-
-}
-
-#clock {
-    display: block;
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 4rem;
-    color: black;
-
-
-}
-
-.i-font {
-    font-family: "Khula";
-    margin-left: 20px;
-    color: black;
-
-
-}
-
-.i-font-time {
-    font-family: "Khula";
-    margin-left: 40px;
-    color: black;
-
-}
-
-#footer-social {
-    width: 160px;
-    margin: 0 auto;
-    margin-top: 20px;
-    padding-bottom: 10px;
-}
-
-#facebook {
-    font-size: 30px;
-    margin: 10px;
-    color: #40e0b0;
-
-
-}
-
-#twitter {
-    font-size: 30px;
-    margin: 10px;
-    color: #40e0b0;
-
-
-}
-
-#instagram {
-    font-size: 30px;
-    margin: 10px;
-    color: #40e0b0;
-
-}
-
-#footer-hr {
-    background-color: #e0e0e0;
-    height: 1px;
-    border: white;
-}
-
-#footer-hr-first {
-    margin-top: 1rem;
-    background-color: #e0e0e0;
-    height: 1px;
-    border: white;
-}
-
-#copyright {
-    display: block;
-    text-align: center;
-    padding: 15px;
-
-}
-
-.sidepanel {
-    height: 90px;
-    /* Specify a height */
-    width: 0;
-    /* 0 width - change this with JavaScript */
-    position: fixed;
-    /* Stay in place */
-    z-index: 5;
-    /* Stay on top */
-    top: 60;
-    left: 0;
-    background: white;
-    background: linear-gradient(180deg, rgba(64, 224, 176, 1) 0%, rgba(64, 208, 201, 1) 100%);
-    overflow-x: hidden;
-    /* Disable horizontal scroll */
-    padding-top: 40px;
-    /* Place content 60px from the top */
-    transition: 0.5s;
-    /* 0.5 second transition effect to slide in the sidepanel */
-    border-radius: 0px 0px 5px 0px;
-}
-
-.sidepanel a {
-    margin-right: -20px;
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-    display: block;
-    transition: 0.3s;
-}
-
-
-.sidepanel a:hover {
-    color: #f1f1f1;
-}
-
-
-.sidepanel .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-
-.openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: white;
-    color: #40e0b0;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 0px 0px 5px 0px;
-}
-
-.openbtn:hover {
-    background-color: white;
-}
-
-#arrow {
-    color: #40e0b0;
-}
-
-#gallery-title {
-    font-size: 38px;
-    text-align: center;
-    margin-left: 2rem;
-    margin-top: 4rem;
-}
-
-#gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 0;
-    margin: 0;
-    justify-items: center;
-    gap: 1rem;
-}
-
-#image-1 {
-    margin: 0 auto;
-    max-width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-#image-2 {
-    margin: 0 auto;
-    max-width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-#image-3 {
-    margin: 0 auto;
-    max-width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-#image-4 {
-    margin: 0 auto;
-    max-width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-#image-5 {
-    margin: 0 auto;
-    max-width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-#image-6 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin: 0 auto;
-    max-width: 100%;
-}
-
-.home-rental-cards-hr-3 {
-    margin: 0 auto;
-    margin-bottom: 1rem;
-    width: 300px;
-    height: 2px;
-    background-color: #e0e0e0;
-    border: none;
+  #rentals-information {
+      width: 100%;
+      margin: 0 auto;
+      padding: 1rem;
   }

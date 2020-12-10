@@ -28,7 +28,7 @@
         <div>
             <ul id="nav" class="navigation">
                 <li><a class="current" href="index.html">HOME</a></li>
-                <li><a href="#">RENTALS</a></li>
+                <li><a href="rentals.html">RENTALS</a></li>
                 <li><a href="#">RESERVATIONS</a></li>
                 <li><a href="#">TOURS</a></li>
                 <li><a href="#">CONTACT</a></li>
@@ -39,7 +39,7 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content">
                 <a href="index.html">HOME</a>
-                <a href="#">RENTALS</a>
+                <a href="rentals.html">RENTALS</a>
                 <a href="#">RESERVATIONS</a>
                 <a href="#">TOURS</a>
                 <a href="#">CONTACT</a>
@@ -53,11 +53,33 @@
             <source media="(max-width: 419px)" srcset="images/mobile-kumpan-cropped-420x542.jpg">
             <source media="(max-width: 800px)" srcset="images/tablet-kumpan-800.jpg">
             <img id="home-rentals-image" src="images/full-kumpan-1400x694.jpg"
-                alt="Image of girl with a scooter by the beach.">
+                alt="Image of a girl with a scooter by the beach.">
         </picture>
         <div id="mySidepanel" class="sidepanel">
             <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
-            <p id="side-info"></p>
+            <table id="weather-summary-table">
+                <tr>
+                    <td id="current-weather" class="table-keys">Weather Type: </td>
+                    <td class="table-values"><span class="capitalize" id="description"></span></td>
+                </tr>
+                <tr>
+                    <td class="table-keys">Current Temp: </td>
+                    <td class="table-values"><span id="temp"></span>°F</td>
+                </tr>
+                <tr>
+                    <td class="table-keys">Temp in 5 days: </td>
+                    <td class="table-values"><span id="f-temp"></span>°F</td>
+                </tr>
+                <tr>
+                    <td class="table-keys">Humidity: </td>
+                    <td class="table-values"><span id="humidity"></span>%</td>
+                </tr>
+                <tr>
+                    <td class="table-keys">Wind Speed: </td>
+                    <td class="table-values"><span id="wind"></span> mph</td>
+                </tr>
+            </table>
+
         </div>
 
         <button class="openbtn" onclick="openSideNav()"><i id="arrow" class="fas fa-chevron-right"></i>
@@ -91,6 +113,7 @@
             <input id="home-rental-button" type="submit" value="Get My Rental">
         </form>
     </section>
+    
     <section id="home-rental-cards">
         <h1 id="home-rental-us">We Are Scoots</h1>
         <hr class="home-rental-cards-hr-1">
@@ -191,6 +214,8 @@
     <script src="js/main.js"></script>
     <script src="js/font.js"></script>
     <script src="js/footer.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/future_forecast.js"></script>
 </body>
 
 </html>
