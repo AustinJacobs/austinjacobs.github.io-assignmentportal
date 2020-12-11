@@ -123,5 +123,24 @@
     gap: 1rem;
   }
 
+  /*RENTALS PAGE CSS */
+
+  #rental-info {
+    margin-top: 14rem;
+  }
+
+  .accordion {
+    height: 60px;
+  }
+
+  #rental-title {
+    font-size: 260px;
+    margin-top: 10%;
+  }
+
+  #rentals-gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
 
 }
