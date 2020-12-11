@@ -24,7 +24,6 @@ const weatherURL = requestedURL;
 fetch(weatherURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
 
         let forecast_temps = document.querySelectorAll(".temp");
         let forecast_dow = document.querySelectorAll(".dow");

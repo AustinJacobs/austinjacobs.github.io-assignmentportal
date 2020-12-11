@@ -106,7 +106,7 @@
                     <td class="data">Full Day</td>
                 </tr>
                 <tr class="rows">
-                    <td class="data">Honda Dio Scooter</td>
+                    <td id="name" class="data"></td>
                     <td class="data">2</td>
                     <td class="data">$30</td>
                     <td class="data">$40</td>
@@ -114,7 +114,7 @@
                     <td class="data">$45</td>
                 </tr>
                 <tr class="rows">
-                    <td class="data">Honda PCX150 Scooter</td>
+                    <td class="data"></td>
                     <td class="data">2</td>
                     <td class="data">$40</td>
                     <td class="data">$50</td>
@@ -122,7 +122,7 @@
                     <td class="data">$55</td>
                 </tr>
                 <tr class="rows">
-                    <td class="data">Honda Pioneer ATV</td>
+                    <td class="data"></td>
                     <td class="data">4</td>
                     <td class="data">$50</td>
                     <td class="data">$70</td>
@@ -130,7 +130,7 @@
                     <td class="data">$80</td>
                 </tr>
                 <tr class="rows">
-                    <td class="data">Jeep Wrangler - 4 door</td>
+                    <td class="data"></td>
                     <td class="data">5</td>
                     <td class="data">$70</td>
                     <td class="data">$100</td>
@@ -138,7 +138,7 @@
                     <td class="data">$125</td>
                 </tr>
                 <tr class="rows">
-                    <td class="data">Jeep Wrangler - 2 door</td>
+                    <td class="data"></td>
                     <td class="data">4</td>
                     <td class="data">$60</td>
                     <td class="data">$85</td>
@@ -146,6 +146,71 @@
                     <td class="data">$90</td>
                 </tr>
             </table>
+        </section>
+        <section id="FAQ">
+            <h1 id="FAQ-info">Frequently Asked Questions</h1>
+            <hr class="home-rental-cards-hr-1">
+            <div id="accordion-style">
+                <button class="accordion">Is a security deposit required?</button>
+                <div class="panel">
+                    <p>A $50 security deposit is required to confirm reservations.
+                    </p>
+                </div>
+
+                <button class="accordion">Do I need a permit to drive a rental?</button>
+                <div class="panel">
+                    <p>A valid drivers license is required in hand at time of rental.</p>
+                </div>
+
+                <button class="accordion">Is there a passenger age limit?</button>
+                <div class="panel">
+                    <p>Only for scooter rentals. No one under 12 years of age are allowed to ride on the scooters.
+                    </p>
+                </div>
+
+                <button class="accordion">Are fuel charges included in rental fee?</button>
+                <div class="panel">
+                    <p>Fuel charge is not included.
+                    </p>
+                </div>
+
+                <button class="accordion">Am I limited to a certain amount of miles with my rental?</button>
+                <div class="panel">
+                    <p>There is unlimited mileage.
+                    </p>
+                </div>
+
+                <button class="accordion">How much is rental insurance?</button>
+                <div class="panel">
+                    <p>Liability insurance is free of charge.
+                    </p>
+                </div>
+
+                <button class="accordion">How far in advance do I need to make a reservation?</button>
+                <div class="panel">
+                    <p>Reservations rate requires 24 hour prior notification.
+                    </p>
+                </div>
+
+                <button class="accordion">Can I have my rental delivered to me?</button>
+                <div class="panel">
+                    <p>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.
+                    </p>
+                </div>
+
+                <button class="accordion">What are my payment options?</button>
+                <div class="panel">
+                    <p>Payment via Google Pay, cash, credit card, debit card, or PayPal.
+                    </p>
+                </div>
+
+                <button class="accordion">Where must I return my rental?</button>
+                <div class="panel">
+                    <p>Rentals may be returned to either location.
+                    </p>
+                </div>
+                
+            </div>
         </section>
 
         <footer>
@@ -182,6 +247,9 @@
         <script src="js/footer.js"></script>
         <script src="js/weather.js"></script>
         <script src="js/future_forecast.js"></script>
+        <script src="js/rental-information-placer.js"></script>
+        <script src="json/rentals.json"></script>
+        <script src="js/accordion.js"></script>
 </body>
 
 </html>

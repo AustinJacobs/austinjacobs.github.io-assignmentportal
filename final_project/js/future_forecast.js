@@ -8,16 +8,12 @@ let APIkey = "2fcc76035c8ea35fae12e45da49246aa";
 
 let requestedURL = forecastURL + cityIdentification + "&appid=" + APIkey;
 
-console.log(requestedURL)
-
 const weatherURL = requestedURL;
 fetch(weatherURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
 
         let forecast = document.getElementById("f-temp");
 
         forecast.textContent = Math.round(jsObject.list[37].main.temp, 0);
-        console.log(forecast)
     });
