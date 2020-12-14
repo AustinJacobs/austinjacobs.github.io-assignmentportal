@@ -5,5 +5,7 @@ let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturda
 
 document.getElementById("current-date").innerHTML = days[d.getDay()] + ", " + d.getDate() + " " + months[d.getMonth()] + " " + d.getFullYear();
 
+document.getElementById("last-update").innerHTML = document.lastModified;
+
 // Copyright year for the footer.
 document.getElementById("copyright-year").innerHTML = (new Date().getFullYear());

@@ -365,8 +365,6 @@
       font-size: 30px;
       margin: 10px;
       color: #40e0b0;
-
-
   }
 
   #instagram {
@@ -393,7 +391,11 @@
       display: block;
       text-align: center;
       padding: 15px;
+  }
 
+  footer #last-update-style {
+      display: block;
+      text-align: center;
   }
 
   .sidepanel {
@@ -675,12 +677,12 @@
   }
 
   .rental-gallery-hr-1 {
-    margin: 0 auto;
-    margin-bottom: 2rem;
-    width: 300px;
-    height: 2px;
-    background-color: #e0e0e0;
-    border: none;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+      width: 300px;
+      height: 2px;
+      background-color: #e0e0e0;
+      border: none;
   }
 
   .rental-gallery-p {
