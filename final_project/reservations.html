@@ -93,7 +93,7 @@
                 <fieldset>
                     <legend>Contact Information</legend>
                     <div class="form-item">
-                        <label class="top" for="fullname">First Name*
+                        <label class="top" for="fullname">Full Name*
                             <input type="text" id="fullname" name="fullname" pattern="[A-Za-z ]{5,}"
                                 required></label>
                     </div>
@@ -109,7 +109,7 @@
                     </div>
                     <div class="form-item">
                         <label class="top" for="zip">Country of Origin*
-                            <input type="text" id="zip" name="zip" pattern="[A-Za-z]{5,}" required></label>
+                            <input type="text" id="country" name="country" pattern="[A-Za-z ]{2,}" required></label>
                     </div>
                 </fieldset>
 
@@ -136,8 +136,8 @@
                         <label class="sbs" for="period">Length of Rental:
                             <select id="period" name="period">
                                 <option value="" selected disabled>Length of rental...
-                                <option value="half">Half Day</option>
-                                <option value="full">Full Day</option>
+                                <option value="Half Day">Half Day</option>
+                                <option value="Full Day">Full Day</option>
                             </select></label>
                     </div>
 
@@ -154,8 +154,8 @@
                     </div>
                     <div class="form-item">
                         <div class="form-color">Are you traveling on a cruise ship?</div>
-                        <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
-                        <label class="sbs"><input type="radio" name="danger" value="no">No</label>
+                        <label class="sbs"><input type="radio" name="cruise" value="Yes">Yes</label>
+                        <label class="sbs"><input type="radio" name="cruise" value="No">No</label>
                         <div class="form-item">
                             <label class="top" for="ship">If yes, enter cruise line name
                                 <input type="text" id="ship" name="ship" pattern="[A-Za-z ]{5,}"></label>
@@ -163,7 +163,7 @@
                     </div><br>
                     <div class="form-item">
                         <label id="comments-box" class="form-color" for="comments">Additional Comments
-                            <textarea id="comments" class="comments"  placeholder="Comments"></textarea></label>
+                            <textarea id="comments" class="comments" name="comments" placeholder="Comments"></textarea></label>
                     </div>
                 </fieldset>
                 <div class="form-item">
