@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Scoots is a scooter, ATV and Jeep rental website servicing two physical locations in Cozumel. Find your next rental at Scoots, and explore the beauty of Cozumel, Mexico.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Khula&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/srq0soo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Scoots | Home</title>
+</head>
+
+<body>
+
+    <nav>
+        <header>
+            <a href="index.html"><img id="image-logo" src="images/multi-logo-cropped.png" alt="website logo"></a>
+        </header>
+        <main>
+
+            <div>
+                <ul id="nav" class="navigation">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="rentals.html">RENTALS</a></li>
+                    <li><a class="current" href="reservations.html">RESERVATIONS</a></li>
+                    <li><a href="#">TOURS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">HOME</a>
+                    <a href="rentals.html">RENTALS</a>
+                    <a href="reservations.html">RESERVATIONS</a>
+                    <a href="#">TOURS</a>
+                    <a href="#">CONTACT</a>
+                </div>
+            </div>
+            <span id="burger" onclick="openNav()">&#9776;</span>
+    </nav>
+
+    <section id="home-rentals">
+        <picture>
+            <source media="(max-width: 419px)" srcset="images/res-mobile-420x420.jpg">
+            <source media="(max-width: 800px)" srcset="images/res-tablet-800x546.jpg">
+            <img id="home-rentals-image" src="images/res-full-size-1400x694.jpg"
+                alt="Image of a girl with a scooter by the beach.">
+        </picture>
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">&times;</a>
+            <table id="weather-summary-table">
+                <tr>
+                    <td id="current-weather" class="table-keys">Weather Type: </td>
+                    <td class="table-values"><span class="capitalize" id="description"></span></td>
+                </tr>
+                <tr>
+                    <td class="table-keys">Current Temp: </td>
+                    <td class="table-values"><span id="temp"></span>°F</td>
+                </tr>
+                <tr>
+                    <td class="table-keys">Temp in 5 days: </td>
+                    <td class="table-values"><span id="f-temp"></span>°F</td>
+                </tr>
+                <tr>
+                    <td class="table-keys">Humidity: </td>
+                    <td class="table-values"><span id="humidity"></span>%</td>
+                </tr>
+                <tr>
+                    <td class="table-keys">Wind Speed: </td>
+                    <td class="table-values"><span id="wind"></span> mph</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <button class="openbtn" onclick="openSideNav()"><i id="arrow" class="fas fa-chevron-right"></i>
+            Weather Info</button>
+        <h1 id="res-title">Reservations</h1>
+        <h2 id="rental-form-title">Make a Reservation</h2>
+        <hr class="res-hr">
+        <div id="form-control">
+            <form id="res-form" method="GET" action="finalize_reservation.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item">
+                        <label class="top" for="fullname">First Name*
+                            <input type="text" id="fullname" name="fullname" pattern="[A-Za-z ]{5,}"
+                                required></label>
+                    </div>
+                    <div id="form-item">
+                        <label class="top" for="email-center">Email Address*
+                            <input type="email" id="email-center" name="email" placeholder="somebody@example.com"
+                                required></label>
+                    </div>
+                    <div class="form-item">
+                        <label class="top" for="phone-center">Phone Number*
+                            <input type="tel" id="phone-center" name="phone" pattern="\d{10}" placeholder="1234567890"
+                                required></label>
+                    </div>
+                    <div class="form-item">
+                        <label class="top" for="zip">Country of Origin*
+                            <input type="text" id="zip" name="zip" pattern="[A-Za-z]{5,}" required></label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Rental Information</legend>
+                    <div class="form-item">
+                        <label class="top" for="date">Date of Reservation*
+                            <input type="date" id="date" name="date" required></label>
+                    </div>
+                    <div class="form-item">
+                        <label class="top" for="retnal-type">Rental Type*
+                            <input list="rental-type-list" id="rental-type" name="rental-type" required></label>
+                    </div>
+                    <datalist id="rental-type-list">
+                        <option value="Honda Metro Scooter">
+                        <option value="Honda Dio Scooter">
+                        <option value="Honda PCX150 Scooter">
+                        <option value="Honda Pioneer ATV">
+                        <option value="Jeep Wrangler - 4 door with a/c">
+                        <option value="Jeep Wrangler - 2 door">
+                    </datalist>
+
+                    <div class="form-item">
+                        <label class="sbs" for="period">Length of Rental:
+                            <select id="period" name="period">
+                                <option value="" selected disabled>Length of rental...
+                                <option value="half">Half Day</option>
+                                <option value="full">Full Day</option>
+                            </select></label>
+                    </div>
+
+                    <div class="form-item">
+                        <label class="sbs" for="passengers">Number of Passengers:
+                            <select id="passengers" name="passengers">
+                                <option value="" selected disabled>Passengers...
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select></label>
+                    </div>
+                    <div class="form-item">
+                        <div class="form-color">Are you traveling on a cruise ship?</div>
+                        <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
+                        <label class="sbs"><input type="radio" name="danger" value="no">No</label>
+                        <div class="form-item">
+                            <label class="top" for="ship">If yes, enter cruise line name
+                                <input type="text" id="ship" name="ship" pattern="[A-Za-z ]{5,}"></label>
+                        </div>
+                    </div><br>
+                    <div class="form-item">
+                        <label id="comments-box" class="form-color" for="comments">Additional Comments
+                            <textarea id="comments" class="comments"  placeholder="Comments"></textarea></label>
+                    </div>
+                </fieldset>
+                <div class="form-item">
+                    <label for="submit">
+                        <input class="sub-button" id="submit" type="submit" name="submit"
+                            value="Create My Reservation"></label>
+                </div>
+            </form>
+        </div>
+        </main>
+
+        <footer>
+            <hr id="footer-hr-first">
+            <div id="footer-grid">
+                <div id="footer-item-1">
+                    <a href="index.html"><img id="image-logo-footer" src="images/multi-logo-cropped.png"
+                            alt="website logo"></a>
+                </div>
+                <div id="footer-item-2" class="footer-contact">
+                    <h2 id="home-contact-title">Contact Us</h2>
+                    <i id="pin" class="fas fa-map-marker-alt"><span class="i-font">189 Calle 45 Oeste 77600</span></i>
+                    <i id="phone" class="fas fa-phone-alt"><span class="i-font">52.800.987.3458</span></i>
+                    <i id="clock" class="fas fa-clock"><span class="i-font">Open Monday-Saturday</br> <span
+                                class="i-font-time">7:00
+                                a.m. - 9:00 p.m.</span></span></i>
+                </div>
+                <div id="footer-social">
+                    <a href="https://www.facebook.com"><i id="facebook" class="fab fa-facebook"></i></a>
+                    <a href="https://www.twitter.com"><i id="twitter" class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com"><i id="instagram" class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <hr id="footer-hr">
+            <div id="copyright">
+                Copyright &copy; <span id="copyright-year"></span> Scoots
+                <div></div><span id="current-date"></span>
+                <div id="last-update-style">Last Updated: <span id="last-update"></span></div>
+                <a href="resources.html">Resources Used</a>
+            </div>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/font.js"></script>
+        <script src="js/footer.js"></script>
+        <script src="js/weather.js"></script>
+        <script src="js/future_forecast.js"></script>
+        <script src="js/rental-information-placer.js"></script>
+        <script src="json/rentals.json"></script>
+        <script src="js/accordion.js"></script>
+</body>
+
+</html>
+
+
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.578772330222!2d-86.95550263509041!3d20.48248703629683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDI4JzU1LjQiTiA4NsKwNTcnMTQuNiJX!5e0!3m2!1sen!2sus!4v1607570547065!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->

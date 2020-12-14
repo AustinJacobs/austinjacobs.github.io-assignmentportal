@@ -216,8 +216,7 @@
 
     #gallery-title {
         font-size: 38px;
-        text-align: left;
-        margin-left: 2rem;
+        text-align: center;
         margin-top: 4rem;
     }
 
@@ -230,7 +229,9 @@
     }
 
     .home-rental-cards-hr-3 {
-        margin-left: 2rem;
+        margin: 0 auto;
+        margin-top: 0;
+        margin-bottom: 2rem;
     }
 
     /*RENTALS PAGE CSS */
@@ -254,6 +255,17 @@
         height: 2px;
         background-color: #e0e0e0;
         border: none;
-      }
+    }
+
+    /*RESERVATIONS PAGE CSS */
+
+    #res-title {
+        margin-top: 14%;
+        font-size: 160px;
+    }
+
+    #rental-form-title {
+        margin-top: 11rem;
+    }
 
 }

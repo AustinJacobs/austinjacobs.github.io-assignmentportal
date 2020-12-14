@@ -29,7 +29,7 @@
             <ul id="nav" class="navigation">
                 <li><a class="current" href="index.html">HOME</a></li>
                 <li><a href="rentals.html">RENTALS</a></li>
-                <li><a href="#">RESERVATIONS</a></li>
+                <li><a href="reservations.html">RESERVATIONS</a></li>
                 <li><a href="#">TOURS</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
@@ -40,7 +40,7 @@
             <div class="overlay-content">
                 <a href="index.html">HOME</a>
                 <a href="rentals.html">RENTALS</a>
-                <a href="#">RESERVATIONS</a>
+                <a href="reservations.html">RESERVATIONS</a>
                 <a href="#">TOURS</a>
                 <a href="#">CONTACT</a>
             </div>
@@ -84,36 +84,37 @@
 
         <button class="openbtn" onclick="openSideNav()"><i id="arrow" class="fas fa-chevron-right"></i>
             Weather Info</button>
-        <h1 id="home-title">Let's Find You The <span class="font-title">Perfect Rental</span> </h1>
-        <form id="home-form" action="rentals.html">
-            <label for="vehicle-type"></label>
-            <select name="vehicle-type" id="vehicle-type">
-                <option value="" selected disabled>Vehicle Type
-                <option value="Scooter">Scooter</option>
-                <option value="ATV">ATV</option>
-                <option value="Jeep">Jeep</option>
-            </select>
-            <br><br>
-            <label for="vehicle-model"></label>
-            <select name="vehicle-model" id="vehicle-model">
-                <option value="" selected disabled>Vehicle Model
-                <option value="" disabled>Honda Motor Scooters
-                <option value="Honda Metropolitan (49cc)">Honda Metropolitan (49cc)</option>
-                <option value="Honda Dio (110cc)">Honda Dio (110cc)</option>
-                <option value="Honda PCX150 (149cc)">Honda PCX150 (149cc)</option>
+        <main>
+            <h1 id="home-title">Let's Find You The <span class="font-title">Perfect Rental</span> </h1>
+            <form id="home-form" action="rentals.html">
+                <label for="vehicle-type"></label>
+                <select name="vehicle-type" id="vehicle-type">
+                    <option value="" selected disabled>Vehicle Type
+                    <option value="Scooter">Scooter</option>
+                    <option value="ATV">ATV</option>
+                    <option value="Jeep">Jeep</option>
+                </select>
+                <br><br>
+                <label for="vehicle-model"></label>
+                <select name="vehicle-model" id="vehicle-model">
+                    <option value="" selected disabled>Vehicle Model
+                    <option value="" disabled>Honda Motor Scooters
+                    <option value="Honda Metropolitan (49cc)">Honda Metropolitan (49cc)</option>
+                    <option value="Honda Dio (110cc)">Honda Dio (110cc)</option>
+                    <option value="Honda PCX150 (149cc)">Honda PCX150 (149cc)</option>
 
-                <option value="" disabled>ATV Side-by-Side
-                <option value="Honda Pioneer 1000">Honda Pioneer 1000</option>
+                    <option value="" disabled>ATV Side-by-Side
+                    <option value="Honda Pioneer 1000">Honda Pioneer 1000</option>
 
-                <option value="" disabled>Jeep Rentals
-                <option value="4-door Jeep Wrangler">4-door Jeep Wrangler</option>
-                <option value="2-door Jeep Wrangler">2-door Jeep Wrangler</option>
-            </select>
-            <br><br>
-            <input id="home-rental-button" type="submit" value="Get My Rental">
-        </form>
+                    <option value="" disabled>Jeep Rentals
+                    <option value="4-door Jeep Wrangler">4-door Jeep Wrangler</option>
+                    <option value="2-door Jeep Wrangler">2-door Jeep Wrangler</option>
+                </select>
+                <br><br>
+                <input id="home-rental-button" type="submit" value="Get My Rental">
+            </form>
     </section>
-    
+
     <section id="home-rental-cards">
         <h1 id="home-rental-us">We Are Scoots</h1>
         <hr class="home-rental-cards-hr-1">
@@ -182,6 +183,7 @@
 
         </div>
     </section>
+    </main>
     <footer>
         <hr id="footer-hr-first">
         <div id="footer-grid">
