@@ -464,7 +464,6 @@
   #gallery-title {
       font-size: 38px;
       text-align: center;
-      margin-left: 2rem;
       margin-top: 4rem;
   }
 
@@ -689,7 +688,6 @@
 
   #res-title {
       text-align: center;
-      padding: 1rem;
       color: white;
       text-shadow: 1px 1px #555;
       font-size: 100px;
