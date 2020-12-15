@@ -8,6 +8,11 @@
       box-sizing: border-box;
   }
 
+  html {
+      max-width: 100%;
+
+  }
+
   body {
       font-size: 16px;
       font-family: "Khula", sans-serif;
@@ -15,6 +20,7 @@
       background-color: white;
       max-width: 1400px;
       margin: 0 auto;
+      overflow-x: hidden;
   }
 
   .navigation {
@@ -78,7 +84,7 @@
       font-size: 50px;
   }
 
-  #home-rentals-image {
+  .home-rentals-image {
       display: block;
       max-width: 100%;
       z-index: -1;
@@ -853,29 +859,24 @@
 
   .row {
       display: -ms-flexbox;
-      /* IE10 */
       display: flex;
       -ms-flex-wrap: wrap;
-      /* IE10 */
       flex-wrap: wrap;
       margin-top: 2rem;
   }
 
   .col-25 {
       -ms-flex: 25%;
-      /* IE10 */
       flex: 25%;
   }
 
   .col-50 {
       -ms-flex: 50%;
-      /* IE10 */
       flex: 50%;
   }
 
   .col-75 {
       -ms-flex: 75%;
-      /* IE10 */
       flex: 75%;
   }
 
@@ -975,4 +976,93 @@
   #thank-you {
       text-align: center;
       margin: 3rem;
+  }
+
+  /*TOURS PAGE CSS */
+
+  #tours-title {
+      text-align: center;
+      color: white;
+      text-shadow: 1px 1px #555;
+      font-size: 95px;
+      margin-top: 26%;
+      font-family: sarah-script, sans-serif;
+  }
+
+  #history-title {
+      text-align: center;
+      margin-top: 15rem;
+      text-align: center;
+      font-size: 38px;
+      color: #40e0b0;
+  }
+
+  #tours-hr-1 {
+      margin: 0 auto;
+      margin-bottom: 1rem;
+      width: 300px;
+      height: 2px;
+      background-color: #e0e0e0;
+      border: none;
+  }
+
+  .history-p {
+      margin: 2rem;
+      font-size: 18px;
+  }
+
+  #pop-tours {
+      text-align: center;
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 38px;
+      color: #40e0b0;
+  }
+
+  #tours-hr-2 {
+      margin: 0 auto;
+      margin-bottom: 1rem;
+      width: 300px;
+      height: 2px;
+      background-color: #e0e0e0;
+      border: none;
+  }
+
+  #tours-list li {
+      margin: 1rem;
+      margin-left: 3rem;
+      text-align: left;
+      font-size: 18px;
+  }
+
+  /*CONTACT PAGE CSS */
+
+  #contact-title {
+      text-align: center;
+      color: white;
+      text-shadow: 1px 1px #555;
+      font-size: 95px;
+      margin-top: 26%;
+      font-family: sarah-script, sans-serif;
+  }
+
+  #contact-form-title {
+      text-align: center;
+      margin-top: 13rem;
+      text-align: center;
+      font-size: 38px;
+      color: #40e0b0;
+  }
+
+  #contact-hr-1 {
+      margin: 0 auto;
+      margin-bottom: 1rem;
+      width: 300px;
+      height: 2px;
+      background-color: #e0e0e0;
+      border: none;
+  }
+
+  #contact-button {
+    margin: 0 auto;
   }

@@ -150,7 +150,18 @@
   }
 
   #rental-form-title {
-    margin-top: 12rem;
+    margin-top: 15rem;
   }
 
+  /*TOURS PAGE CSS */
+  #tours-title {
+    font-size: 260px;
+    margin-top: 10%;
+  }
+
+  #history-title {
+    margin-top: 15rem;
+  }
+
+  /*CONTACT PAGE CSS */
 }
