@@ -32,24 +32,6 @@
     display: block;
   }
 
-  #home-form {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  }
-
-  #vehicle-type {
-    justify-self: right;
-    grid-column: 2/3;
-  }
-
-  #vehicle-model {
-    grid-column: 3/4;
-  }
-
-  #home-rental-button {
-    justify-self: left;
-    grid-column: 4/5;
-  }
-
   #home-rental-cards-title {
     margin-top: 4rem;
     text-align: center;
