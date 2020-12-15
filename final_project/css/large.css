@@ -117,10 +117,7 @@
   }
 
   #gallery {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    gap: 1rem;
   }
 
   /*RENTALS PAGE CSS */
@@ -164,4 +161,25 @@
   }
 
   /*CONTACT PAGE CSS */
+
+  #contact-title {
+    font-size: 260px;
+    margin-top: 12%;
+  }
+
+  #contact-form-title {
+    margin-top: 13rem;
+  }
+
+  #contact-form {
+    width: 30%;
+  }
+
+  #map-1 {
+    height: 330px;
+  }
+
+  #map-2 {
+    height: 330px;
+  }
 }

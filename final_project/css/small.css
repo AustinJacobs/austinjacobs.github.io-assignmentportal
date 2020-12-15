@@ -40,7 +40,7 @@
 
   #image-logo {
       max-width: 30%;
-     
+
   }
 
   #motto {
@@ -971,6 +971,35 @@
       }
   }
 
+  #rental-agreement {
+      text-align: center;
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 38px;
+      color: #40e0b0;
+  }
+
+  #agreement-hr {
+      margin: 0 auto;
+      margin-bottom: 1rem;
+      width: 300px;
+      height: 2px;
+      background-color: #e0e0e0;
+      border: none;
+  }
+
+  .rental-agreement-p {
+      padding: .3rem;
+      max-width: 900px;
+      text-align: left;
+      margin-left: .5rem;
+      margin-right: .5rem;
+  }
+
+  .rental-agreement-p::before {
+      content: "• ";
+  }
+
   /*THANK YOU PAGE CSS */
 
   #thank-you {
@@ -1033,6 +1062,7 @@
       margin-left: 3rem;
       text-align: left;
       font-size: 18px;
+      color: black;
   }
 
   /*CONTACT PAGE CSS */
@@ -1064,5 +1094,52 @@
   }
 
   #contact-button {
-    margin: 0 auto;
+      margin: 0 auto;
+      width: 90%;
   }
+
+  #contact-form {
+      width: 100%;
+      margin: 0 auto;
+  }
+
+  #map-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-top: 3rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+  }
+
+  #map-1-title {
+      text-align: center;
+      font-size: 38px;
+      color: #40e0b0;
+  }
+
+  #map-2-title {
+      text-align: center;
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 38px;
+      color: #40e0b0;
+  }
+
+  .contact-hr-maps-1 {
+      margin: 0 auto;
+      margin-bottom: 1rem;
+      width: 300px;
+      height: 2px;
+      background-color: #e0e0e0;
+      border: none;
+  }
+
+  .contact-hr-maps-2 {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    width: 300px;
+    height: 2px;
+    background-color: #e0e0e0;
+    border: none;
+}
