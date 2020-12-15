@@ -565,7 +565,7 @@
       padding: 10px;
       color: white;
       text-shadow: 1px 1px #555;
-      font-size: 90px;
+      font-size: 100px;
       margin-top: 18%;
       font-family: sarah-script, sans-serif;
   }
@@ -690,14 +690,14 @@
       text-align: center;
       color: white;
       text-shadow: 1px 1px #555;
-      font-size: 90px;
+      font-size: 100px;
       margin-top: 20%;
       font-family: sarah-script, sans-serif;
   }
 
   #rental-form-title {
       text-align: center;
-      margin-top: 10rem;
+      margin-top: 12rem;
       text-align: center;
       font-size: 38px;
       color: #40e0b0;
