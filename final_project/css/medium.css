@@ -22,7 +22,6 @@
 
     .navigation li {
         display: block;
-        /* change state in small view */
     }
 
     .navigation a {
@@ -54,10 +53,6 @@
         margin-top: 3rem;
         margin-left: 8rem;
         margin-right: 8rem;
-    }
-
-    #home-rentals-image {
-        opacity: 80%;
     }
 
     .font-title {

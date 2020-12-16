@@ -12,7 +12,6 @@
   }
 
   .navigation a:hover {
-    background: white;
     background: linear-gradient(180deg, rgba(64, 224, 176, 1) 0%, rgba(64, 208, 201, 1) 100%);
     border-radius: 5px;
   }
@@ -139,6 +138,10 @@
   #history-title {
     margin-top: 15rem;
   }
+
+  /*RESERVATIONS SUBMISSION PAGE */
+
+  
 
   /*CONTACT PAGE CSS */
 

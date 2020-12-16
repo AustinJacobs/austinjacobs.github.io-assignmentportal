@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Scoots is a scooter, ATV and Jeep rental website servicing two physical locations in Cozumel. Find your next rental at Scoots, and explore the beauty of Cozumel, Mexico.">
-    
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
     <link href="https://fonts.googleapis.com/css2?family=Khula&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/srq0soo.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
@@ -69,27 +69,37 @@
         <div class="row">
             <div class="col-75">
                 <div class="container">
-                    <form action="thank_you.html">
-
+                    <form id="finalize" action="thank_you.html">
                         <div class="row">
                             <div class="col-50">
-                                <h1 id="payment-info">Payment Info</h1>
-                                <label for="cname">Name on Card
-                                    <input type="text" id="cname" name="cardname" placeholder="John Doe"></label>
-                                <label for="ccnum">Credit card number
-                                    <input type="text" id="ccnum" name="cardnumber"
-                                        placeholder="1111-2222-3333-4444"></label>
-                                <label for="expmonth">Exp Month
-                                    <input type="text" id="expmonth" name="expmonth" placeholder="November"></label>
-                                <label for="expmonth">Exp Month
-                                    <input type="text" id="expyear" name="expyear" placeholder="November"></label>
-                                <label for="expmonth">Exp Month
-                                    <input type="text" id="cvv" name="cvv" placeholder="432"></label>
-
+                                <h2 id="payment-info-t">Payment Information</h2>
+                                <fieldset>
+                                    <div class="form-item">
+                                        <label class="top" for="card">Name on Card*
+                                            <input type="text" id="card" name="card" pattern="[A-Za-z ]{5,}" required></label>
+                                    </div>
+                                    <div id="form-item">
+                                        <label class="top" for="num">Card Number*
+                                            <input type="text" id="num" name="num" placeholder="1111-2222-3333-4444"
+                                                required></label>
+                                    </div>
+                                    <div class="form-item">
+                                        <label class="top" for="month">Expiration Month*
+                                            <input type="text" id="month" name="month" pattern="\d{2}" placeholder="06"
+                                                required></label>
+                                    </div>
+                                    <div class="form-item">
+                                        <label class="top" for="country">Expiration Year*
+                                            <input type="text" id="year" name="year" pattern="\d{4}" placeholder="2020" required></label>
+                                    </div>
+                                    <div class="form-item">
+                                        <label class="top" for="code">Card Verification Value (CVV)*
+                                            <input type="text" id="code" name="code" pattern="\d{3,4}" placeholder="123" required></label>
+                                    </div>
+                                </fieldset>
                             </div>
-
                         </div>
-                        <input type="submit" value="Make Reservation Deposit" class="btn">
+                            <button class="btn">Submit Reservation Information</button>
                     </form>
                 </div>
             </div>
@@ -110,9 +120,11 @@
                 <i id="clock" class="fas fa-clock"><span class="i-font">7:00 a.m. - 6:00 p.m.</span></i>
             </div>
             <div id="footer-social">
-                <a aria-label="Facebook" href="https://www.facebook.com"><i id="facebook" class="fab fa-facebook"></i></a>
+                <a aria-label="Facebook" href="https://www.facebook.com"><i id="facebook"
+                        class="fab fa-facebook"></i></a>
                 <a aria-label="Twitter" href="https://www.twitter.com"><i id="twitter" class="fab fa-twitter"></i></a>
-                <a aria-label="Instagram" href="https://www.instagram.com"><i id="instagram" class="fab fa-instagram"></i></a>
+                <a aria-label="Instagram" href="https://www.instagram.com"><i id="instagram"
+                        class="fab fa-instagram"></i></a>
             </div>
         </div>
         <hr id="footer-hr">
