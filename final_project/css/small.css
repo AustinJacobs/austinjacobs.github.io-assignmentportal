@@ -299,7 +299,7 @@
   }
 
   #image-logo-footer {
-      max-width: 40%;
+      max-width: 100%;
       display: block;
       margin: 0 auto;
       padding-top: 20px;
@@ -312,8 +312,6 @@
       margin-top: 1rem;
       margin-left: 4rem;
       color: black;
-
-
   }
 
   #phone {
@@ -406,7 +404,6 @@
   .sidepanel {
       height: 180px;
       width: 0;
-      /* 0 width - change this with JavaScript */
       position: fixed;
       z-index: 5;
       top: 60;
