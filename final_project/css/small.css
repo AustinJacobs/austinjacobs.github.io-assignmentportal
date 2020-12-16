@@ -1,7 +1,5 @@
   /*BODY AND HOME PAGE CSS */
 
-  @charset "UTF-8";
-
   * {
       margin: 0;
       padding: 0;
@@ -406,7 +404,7 @@
       width: 0;
       position: fixed;
       z-index: 5;
-      top: 60;
+      top: 60px;
       left: 0;
       background: white;
       background: linear-gradient(180deg, rgba(64, 224, 176, 1) 0%, rgba(64, 208, 201, 1) 100%);
@@ -857,23 +855,19 @@
   .row {
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       margin-top: 2rem;
   }
 
   .col-25 {
-      -ms-flex: 25%;
       flex: 25%;
   }
 
   .col-50 {
-      -ms-flex: 50%;
       flex: 50%;
   }
 
   .col-75 {
-      -ms-flex: 75%;
       flex: 75%;
   }
 

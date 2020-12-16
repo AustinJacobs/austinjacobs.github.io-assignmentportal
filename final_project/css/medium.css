@@ -38,7 +38,9 @@
     }
 
     #nav .current {
-        text-decoration: underline 2px #40e0b0;
+        text-decoration-line: underline;
+        text-decoration-color: #40e0b0;
+        text-decoration-thickness: 2px;
         color: black;
     }
 
