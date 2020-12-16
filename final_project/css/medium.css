@@ -40,7 +40,6 @@
     #nav .current {
         text-decoration-line: underline;
         text-decoration-color: #40e0b0;
-        text-decoration-thickness: 2px;
         color: black;
     }
 
