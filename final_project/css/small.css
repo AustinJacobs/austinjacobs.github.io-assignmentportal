@@ -25,24 +25,18 @@
       display: none;
   }
 
-  /* h1 {
-    font-family: sarah-script, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-} */
-
   h1 {
-      color: #40E0B0;
+      color: black;
       margin: 0;
   }
 
   h2 {
-    color: #40E0B0;
+    color: black;
     margin: 0;
   }
 
   #image-logo {
-      margin-top: .5rem;
+      margin-top: .2rem;
       max-width: 100%;
   }
 
@@ -91,7 +85,7 @@
       display: block;
       max-width: 100%;
       z-index: -1;
-      opacity: 80%;
+      opacity: 90%;
       position: absolute;
       top: 55px;
       margin: 0 auto;
@@ -175,7 +169,7 @@
       float: right;
       margin-top: -10.5%;
       margin-right: 4%;
-      color: #40e0b0;
+      color: black;
   }
 
   #vehicle-type {
@@ -357,7 +351,7 @@
   #facebook {
       font-size: 30px;
       margin: 10px;
-      color: #40e0b0;
+      color: black;
 
 
   }
@@ -365,13 +359,13 @@
   #twitter {
       font-size: 30px;
       margin: 10px;
-      color: #40e0b0;
+      color: black;
   }
 
   #instagram {
       font-size: 30px;
       margin: 10px;
-      color: #40e0b0;
+      color: black;
 
   }
 
@@ -404,7 +398,7 @@
       width: 0;
       position: fixed;
       z-index: 5;
-      top: 60px;
+      top: 60;
       left: 0;
       background: white;
       background: linear-gradient(180deg, rgba(64, 224, 176, 1) 0%, rgba(64, 208, 201, 1) 100%);
@@ -448,7 +442,7 @@
       font-size: 20px;
       cursor: pointer;
       background-color: white;
-      color: #40e0b0;
+      color: black;
       padding: 10px 15px;
       border: none;
       border-radius: 0px 0px 5px 0px;
@@ -459,7 +453,7 @@
   }
 
   #arrow {
-      color: #40e0b0;
+      color: black;
   }
 
   #gallery-title {
@@ -575,7 +569,7 @@
       margin-top: 11rem;
       text-align: center;
       font-size: 38px;
-      color: #40e0b0;
+      color: black;
   }
 
   .rental-info-table {
@@ -610,8 +604,8 @@
   }
 
   .accordion {
-      background-color: #40e0b0;
-      color: white;
+      background-color: #e0e0e0;
+      color: black;
       cursor: pointer;
       padding: 1rem;
       width: 100%;
@@ -624,7 +618,7 @@
 
   .active,
   .accordion:hover {
-      background-color: #40D0C9;
+      background-color: #40e0b0;
   }
 
   .panel {
@@ -669,7 +663,7 @@
       margin-top: 3rem;
       text-align: center;
       font-size: 38px;
-      color: #40e0b0;
+      color: black;
   }
 
   .rental-gallery-hr-1 {
@@ -701,7 +695,7 @@
       margin-top: 12rem;
       text-align: center;
       font-size: 38px;
-      color: #40e0b0;
+      color: black;
   }
 
   .res-hr {
@@ -725,13 +719,13 @@
 
   form fieldset {
       margin: 2rem 10px;
-      border: 1px solid #40D0C9;
+      border: 1px solid black;
       border-radius: 5px;
       padding: .5rem;
   }
 
   form legend {
-      color: #40e0b0;
+      color: black;
       text-align: center;
   }
 
@@ -755,7 +749,7 @@
   form label.top select {
       display: block;
       font-size: 1rem;
-      border: solid 1px #40d0c9;
+      border: solid 1px black;
       border-radius: 5px;
       padding: .75rem;
       color: black;
@@ -799,7 +793,7 @@
       max-width: 300px;
       height: auto;
       padding: .5rem;
-      border: solid 1px #40d0c9;
+      border: solid 1px black;
       border-radius: 5px;
   }
 
@@ -814,12 +808,12 @@
 
   #passengers {
       border-radius: 5px;
-      border: solid 1px #40d0c9;
+      border: solid 1px black;
   }
 
   #period {
       border-radius: 5px;
-      border: solid 1px #40d0c9;
+      border: solid 1px black;
   }
 
   /*RESERVATIONS SUBMISSION PAGE CSS */
@@ -829,7 +823,7 @@
       margin-top: 2rem;
       text-align: center;
       font-size: 38px;
-      color: #40e0b0;
+      color: black;
   }
 
   #res-submit-hr {
@@ -843,7 +837,7 @@
 
   .res-form-divs {
       text-align: left;
-      border: 1px solid #40d0c9;
+      border: 1px solid black;
       font-size: 20px;
       margin: 0 auto;
       width: 90%;
@@ -879,7 +873,7 @@
   #payment-info {
       text-align: center;
       margin-bottom: 1rem;
-      color: #40e0b0;
+      color: black;
   }
 
   .container {
@@ -966,7 +960,7 @@
       margin-top: 3rem;
       text-align: center;
       font-size: 38px;
-      color: #40e0b0;
+      color: black;
   }
 
   #agreement-hr {
@@ -1013,7 +1007,7 @@
       margin-top: 15rem;
       text-align: center;
       font-size: 38px;
-      color: #40e0b0;
+      color: black;
   }
 
   #tours-hr-1 {
@@ -1035,7 +1029,7 @@
       margin-top: 3rem;
       text-align: center;
       font-size: 38px;
-      color: #40e0b0;
+      color: black;
   }
 
   #tours-hr-2 {
@@ -1072,7 +1066,7 @@
       margin-top: 13rem;
       text-align: center;
       font-size: 38px;
-      color: #40e0b0;
+      color: black;
   }
 
   #contact-hr-1 {
@@ -1106,7 +1100,7 @@
   #map-1-title {
       text-align: center;
       font-size: 38px;
-      color: #40e0b0;
+      color: black;
   }
 
   #map-2-title {
@@ -1114,7 +1108,7 @@
       margin-top: 3rem;
       text-align: center;
       font-size: 38px;
-      color: #40e0b0;
+      color: black;
   }
 
   .contact-hr-maps-1 {
