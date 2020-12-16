@@ -317,8 +317,6 @@
       margin-top: 1rem;
       margin-left: 4rem;
       color: black;
-
-
   }
 
   #clock {
@@ -327,9 +325,15 @@
       margin-top: 10px;
       margin-left: 4rem;
       color: black;
-
-
   }
+
+  #calendar {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 4rem;
+    color: black;
+}
 
   .i-font {
       font-family: "Khula";
