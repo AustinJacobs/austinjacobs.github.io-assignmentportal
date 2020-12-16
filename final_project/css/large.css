@@ -12,7 +12,8 @@
   }
 
   .navigation a:hover {
-    background-color: #40e0b0;
+    background: white;
+    background: linear-gradient(180deg, rgba(64, 224, 176, 1) 0%, rgba(64, 208, 201, 1) 100%);
     border-radius: 5px;
   }
 
