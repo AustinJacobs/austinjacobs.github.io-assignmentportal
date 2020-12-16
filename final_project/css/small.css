@@ -593,7 +593,23 @@
       border: 1px solid black;
   }
 
-  .data {
+  .metro3 {
+      border: 1px solid black;
+  }
+
+  .metro {
+      border: 1px solid black;
+  }
+
+  .metro2 {
+      border: 1px solid black;
+  }
+
+  .metro3 {
+      border: 1px solid black;
+  }
+
+  .metro4 {
       border: 1px solid black;
   }
 
@@ -1148,5 +1164,5 @@
   }
 
   #map-div-2 {
-    justify-self: center;
-}
+      justify-self: center;
+  }
