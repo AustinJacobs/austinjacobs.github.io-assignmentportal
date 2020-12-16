@@ -125,6 +125,12 @@
         margin-bottom: 1rem;
     }
 
+    #calendar {
+        margin: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
     #footer-social {
         grid-column: 3/4;
         align-self: center;
@@ -135,10 +141,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
-    
-
-    
 
     #home-rental-us {
         text-align: left;
